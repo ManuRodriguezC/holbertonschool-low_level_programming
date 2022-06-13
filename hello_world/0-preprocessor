@@ -1,2 +1,2 @@
 #!/bin/bash
-include <stdio.h> int main.c { return; } CFILE=main.c
+gcc c -o $CFILE.out
