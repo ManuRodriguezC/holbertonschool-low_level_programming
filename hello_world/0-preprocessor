@@ -1,10 +1,2 @@
 #!/bin/bash
-#0-preprocessor contains 9, it should be 2
-include <stdio.h>
-
-int main(void)
-{
-	return (0);
-}
-
-CFILE=main.
+export CFILE=0-main.c ; ./0-preprocessor
