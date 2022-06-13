@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -wall c -o $CFILE
+c gcc -o $CFILE
