@@ -1,2 +1,2 @@
 #!/bin/bash
-puts(char*Programming is like building a multilingual puzzle);
+puts(char*Programming is like building a multilingual puzzle)
