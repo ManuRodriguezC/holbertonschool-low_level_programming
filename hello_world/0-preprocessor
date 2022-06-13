@@ -1,2 +1,2 @@
 #!/bin/bash
-include <stdio.h> int main.(void) {return(0); } CFILE=main.c
+include <stdio.h> int main.c { return; } CFILE=main.c
