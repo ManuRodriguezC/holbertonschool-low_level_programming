@@ -13,7 +13,7 @@ char al;
 for (al = 'a' ; al <=  'z' ; al++)
 {
 	putchar(al);
-	\n;
 }
+\n
 return (0);
 }
