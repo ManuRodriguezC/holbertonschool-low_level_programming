@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+
 /**
  *main - Assign a ramdom number
  *Description: Generates a random number and compare the last digit
@@ -15,7 +16,7 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("is positive")
+		printf ("is positive")
 	};
 	else
 		(n = 0)
