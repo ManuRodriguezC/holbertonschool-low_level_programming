@@ -1,8 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+/**
+ *main - Assign a ramdom number
+ *Description: Generates a random number and compare the last digit
+ *to evaluate 3 conditions
+ *Return: zero and prints a message
+*/
 int main(void)
 {
 	int n;
@@ -25,4 +28,3 @@ int main(void)
 	};
 	return (0);
 }
-
