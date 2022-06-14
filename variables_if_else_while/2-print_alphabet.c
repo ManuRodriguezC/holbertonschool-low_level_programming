@@ -14,6 +14,5 @@ for (al = 'a' ; al <=  'z' ; al++)
 {
 	putchar(al);
 }
-\n
 return (0);
 }
