@@ -21,3 +21,4 @@ for (alm = 'A' ; alm <= 'Z' ; alm++)
 }
 putchar('\n');
 return (0);
+}
