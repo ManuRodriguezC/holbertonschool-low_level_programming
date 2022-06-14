@@ -16,16 +16,16 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf ("is positive");
+		puts("is positive");
 	}
 	else
 		(n = 0)
 	{
-		printf("is zero");
+		puts("is zero");
 	}
 	if (n < 0)
 	{
-		printf("is negative");
+		puts("is negative");
 	}
 	return (0);
 }
