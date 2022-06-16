@@ -11,11 +11,15 @@ int n, h;
 for (h = 0 ; h <= 23 ; h++)
 	for (n = 0 ; n <= 59 ; n++)
 	{
-		_putchar(h (% 100));
-		_putchar(h % 10);
+		a = h % 100
+		b = h % 10
+		c = n % 100
+		d = n % 10
+		_putchar(a);
+		_putchar(b);
 		_putchar(':');
-		_putchar(n % 100);
-		_putchar(n % 10);
+		_putchar(c);
+		_putchar(d);
 		_putchar('\n');
 	}
 }
