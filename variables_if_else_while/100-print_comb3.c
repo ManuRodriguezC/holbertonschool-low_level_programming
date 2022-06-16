@@ -8,12 +8,12 @@
 int main(void)
 {
 int left = 0;
-int right = 0;
+int right = 1;
 int space = ' ';
 int comm = ',';
 for (left = 0 ; left <= 9 ; left++)
 {
-	for (right = 0 ; right <= 0 ; right++)
+	for (right = 1 ; right <= 9 ; right++)
 	{
 		if (left < right)
 		{
