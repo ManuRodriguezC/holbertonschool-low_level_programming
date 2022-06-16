@@ -5,8 +5,8 @@
  *_putchar
  *Return: 0
  */
-int main(void)
-n = '_putchar'
+int main(char n)
+n = "_putchar"
 {
 	for (n = '_' ; n <= 'r' ; n++)
 	{
