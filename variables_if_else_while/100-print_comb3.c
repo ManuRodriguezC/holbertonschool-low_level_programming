@@ -15,17 +15,16 @@ for (left = 0 ; left <= 9 ; left++)
 {
 	for (right = 0 ; right <= 0 ; right++)
 	{
-		if (left <= right)
+		if (left < right)
 		{
-		putchar(left);
-		putchar(right);
-			if (left != 8 && right != 9)
+			putchar(left + '0');
+			putchar(right + '0');
+			if (left != 8 || right != 9)
 			{
 				putchar(comm);
 				putchar(space);
 			}
 		}
-
 	}
 }
 return (0);
