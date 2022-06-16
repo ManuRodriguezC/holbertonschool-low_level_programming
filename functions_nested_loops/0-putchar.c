@@ -6,16 +6,11 @@
  *Return: 0
  */
 int main(void)
+n = "_putchar"
 {
+	for (n = '_' ; n <= 'r' ; n++)
 	{
-	putchar('\_')
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+	putchar(n);
 	}
 putchar('\n');
 return (0);
