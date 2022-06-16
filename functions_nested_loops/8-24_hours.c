@@ -15,11 +15,11 @@ for (h = 0 ; h <= 23 ; h++)
 		x = (h % 10);
 		y = (n / 10);
 		w = (n % 10);
-		_putchar('z');
-		_putchar('x');
+		_putchar(z + 48);
+		_putchar(x + 48);
 		_putchar(':');
-		_putchar('y');
-		_putchar('w');
+		_putchar(y + 48);
+		_putchar(w + 48);
 		_putchar('\n');
 	}
 }
