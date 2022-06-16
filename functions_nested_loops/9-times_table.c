@@ -15,6 +15,6 @@ for (n = 0 ; n <= 9 ; n++)
 		_putchar(m + 48);
 		_putchar(',');
 		_putchar(' ');
-		_putchar('\n');
 	}
+_putchar('\n');
 }
