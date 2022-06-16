@@ -22,8 +22,8 @@ for (left = 0 ; left <= 9 ; left++)
 			if (left != 8 || right != 9)
 			{
 				putchar(comm);
-				putchar(space);
 			}
+			putchar(space);
 		}
 	}
 }
