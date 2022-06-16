@@ -27,6 +27,6 @@ for (left = 0 ; left <= 9 ; left++)
 		}
 
 	}
-return (0);
 }
+return (0);
 }
