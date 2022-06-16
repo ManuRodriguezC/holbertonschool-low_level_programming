@@ -19,7 +19,8 @@ for (left = 0 ; left <= 9 ; left++)
 		{
 		putchar(left);
 		putchar(right);
-		if ((left != 8 && right != 9))
+		if (left != 8 && right != 9)
+		{
 			putchar(comm);
 			putchar(space);
 		}
@@ -27,4 +28,5 @@ for (left = 0 ; left <= 9 ; left++)
 
 }
 return (0);
+}
 }
