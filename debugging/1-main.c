@@ -13,10 +13,9 @@ int main(void)
 
         i = 0;
 
-        while (i < 10)
+        while (i < 10)#include <stdio.h>/*Here is the error*/
         {
                 putchar(i);
-		/*Here is the error sinde i does not add*/
         }
 
         printf("Infinite loop avoided! \\o/\n");
