@@ -3,7 +3,7 @@
 /**
  *positive_or_negative - Comprobation
  *
- *Return: 0
+ *Return: i
  */
 
 void positive_or_negative(int i)
@@ -11,6 +11,6 @@ void positive_or_negative(int i)
 	i = 0;
 	positive_or_negative(i);
 
-	return (0);
+	return (i);
 
 }
