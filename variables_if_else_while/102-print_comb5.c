@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *
+ *main - Conteo sin repeticiones
  *
  *
  */
@@ -18,7 +18,7 @@ for (n1 = 0 ; n1 <= 99 ; n1++)
 		
 			putchar(n / 10 + '0');
         		putchar(n % 10 + '0');
-			putchar(' ')
+			putchar(' ');
 
 			putchar(n2 / 10 + '0');
 			putchar(n2 % 10 + '0');
@@ -30,4 +30,6 @@ for (n1 = 0 ; n1 <= 99 ; n1++)
 			}
 	}
 }
+}
+return (0);
 }
