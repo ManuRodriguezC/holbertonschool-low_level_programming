@@ -2,7 +2,7 @@
 
 /**
  *positive_or_negative - Comprobation
- *
+ *@i: number
  *Return: 0
  */
 
