@@ -13,7 +13,7 @@ int main(void)
 
         i = 0;
 
-        while (i < 10)#include <stdio.h>/*Here is the error*/
+        while (i < 10) /*Here is the error*/
         {
                 putchar(i);
         }
