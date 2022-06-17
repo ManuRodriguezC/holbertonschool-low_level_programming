@@ -9,8 +9,6 @@
  */
 void print_to_98(int n)
 
-space = " ";
-comm = ",";
 if (n == 98)
 	printf("%i", n);
 else
@@ -25,7 +23,7 @@ else
 		printf("%i", n);
 		number--;
 	}
-printf("%i", comm);
-printf("%i", space);
+printf(",");
+printf(" ");
 return (0);
 }
