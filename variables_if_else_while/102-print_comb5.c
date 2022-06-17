@@ -16,8 +16,8 @@ for (n1 = 0 ; n1 <= 99 ; n1++)
 		if (n1 < n2)
 		{
 		
-			putchar(n / 10 + '0');
-        		putchar(n % 10 + '0');
+			putchar(n1 / 10 + '0');
+        		putchar(n1 % 10 + '0');
 			putchar(' ');
 
 			putchar(n2 / 10 + '0');
