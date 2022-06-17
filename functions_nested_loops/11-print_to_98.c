@@ -15,7 +15,7 @@ else
 		printf("%i", n);
 		n++;
 	}
-els
+else
 	if (n > 98)
 	{
 		printf("%i", n);
