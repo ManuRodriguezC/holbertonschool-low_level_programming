@@ -2,28 +2,30 @@
 #include <stdio.h>
 /**
  *print_to_98 - conteo
- *@n: number diferent a 98
+ *@number: number diferent a 98
+ *@space: whitespace
+ *@comm: comm
  *Return: 0
  */
-void print_to_98(int n, s, c)
+void print_to_98(int number, space, comm)
 {
-s = ' ';
-c = ',';
-if (n == 98)
-	printf("%i", n);
+space = ' ';
+comm = ',';
+if (number == 98)
+	printf("%i", number);
 else
-	if (n < 98)
+	if (number < 98)
 	{
-		printf("%i", n);
-		n++;
+		printf("%i", number);
+		number++;
 	}
 else
-	if (n > 98)
+	if (number > 98)
 	{
-		printf("%i", n);
-		n--;
+		printf("%i", number);
+		number--;
 	}
-printf(c);
-printf(s);
+printf(comm);
+printf(space);
 return (0);
 }
