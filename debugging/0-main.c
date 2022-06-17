@@ -8,9 +8,10 @@
 
 void positive_or_negative(int i)
 {
-	i = 0;
+if (i == 0)
+
 	printf("%i is zero", i);
 
-	return (0);
+return (0);
 
 }
