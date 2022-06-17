@@ -5,10 +5,10 @@
  *@n: number diferent a 98
  *Return: 0
  */
-void print_to_98(int n, space, comm)
+void print_to_98(int n, s, c)
 {
-space=' ';
-comm=',';
+s = ' ';
+c = ',';
 if (n == 98)
 	printf("%i", n);
 else
@@ -23,7 +23,7 @@ else
 		printf("%i", n);
 		n--;
 	}
-printf(comm);
-printf(space);
+printf(c);
+printf(s);
 return (0);
 }
