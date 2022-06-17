@@ -3,7 +3,7 @@
 /**
  *main - Conteo sin repeticiones
  *
- *
+ *Return: 0
  */
 int main(void)
 {
