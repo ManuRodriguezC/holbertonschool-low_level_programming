@@ -2,9 +2,7 @@
 #include <stdio.h>
 /**
  *print_to_98 - conteo
- *@number: number diferent a 98
- *@space: whitespace
- *@comm: comm
+ *@n: number diferent
  *Return: 0
  */
 void print_to_98(int n)
