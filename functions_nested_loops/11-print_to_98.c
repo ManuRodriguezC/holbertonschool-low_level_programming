@@ -7,7 +7,7 @@
  *@comm: comm
  *Return: 0
  */
-void print_to_98(int number, space, comm)
+void print_to_98(int number,char space,char comm)
 {
 space = ' ';
 comm = ',';
