@@ -7,6 +7,8 @@
  */
 void print_to_98(int n)
 {
+space = ' ';
+comm = ',';
 if (n == 98)
 	printf("%i", n);
 else
@@ -21,7 +23,7 @@ else
 		printf("%i", n);
 		n--;
 	}
-printf(',');
-printf(' ');
+printf(comm);
+printf(space);
 return (0);
 }
