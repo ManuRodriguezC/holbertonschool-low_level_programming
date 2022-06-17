@@ -7,22 +7,22 @@
  *@comm: comm
  *Return: 0
  */
-void print_to_98(int number)
-{
+void print_to_98(int n)
+
 space = " ";
 comm = ",";
-if (number == 98)
-	printf("%i", number);
+if (n == 98)
+	printf("%i", n);
 else
-	if (number < 98)
+	if (n < 98)
 	{
-		printf("%i", number);
-		number++;
+		printf("%i", n);
+		n++;
 	}
 else
-	if (number > 98)
+	if (n > 98)
 	{
-		printf("%i", number);
+		printf("%i", n);
 		number--;
 	}
 printf("%i", comm);
