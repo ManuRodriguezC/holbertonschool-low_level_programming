@@ -3,14 +3,14 @@
 /**
  *positive_or_negative - Comprobation
  *
- *Return: i
+ *Return: 0
  */
 
 void positive_or_negative(int i)
 {
 	i = 0;
-	positive_or_negative(i);
+	printf("%i is zero", i);
 
-	return (i);
+	return (0);
 
 }
