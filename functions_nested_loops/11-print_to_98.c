@@ -7,10 +7,10 @@
  *@comm: comm
  *Return: 0
  */
-void print_to_98(int number,char space,char comm)
+void print_to_98(int number, space, comm)
 {
-space = ' ';
-comm = ',';
+space = " ";
+comm = ",";
 if (number == 98)
 	printf("%i", number);
 else
@@ -25,7 +25,7 @@ else
 		printf("%i", number);
 		number--;
 	}
-printf(comm);
-printf(space);
+printf("%i", comm);
+printf("%i", space);
 return (0);
 }
