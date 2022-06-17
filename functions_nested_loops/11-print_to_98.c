@@ -7,8 +7,8 @@
  */
 void print_to_98(int n, space, comm)
 {
-space = ' ';
-comm = ',';
+space=' ';
+comm=',';
 if (n == 98)
 	printf("%i", n);
 else
