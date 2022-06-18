@@ -29,5 +29,5 @@ while (n != 98)
 		}
 	}
 printf("%i", n);
-printf(" ");
+printf(" \n");
 }
