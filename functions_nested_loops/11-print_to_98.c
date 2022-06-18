@@ -11,9 +11,9 @@ while (n != 98)
 	if (n < 98)
 	{
 		printf("%i", n);
-		n++;
 		if (n != 98)
 		{
+			n++;
 			printf(",");
 			printf(" ");
 		}
