@@ -28,6 +28,6 @@ while (n != 98)
 			printf(" ");
 		}
 	}
-printf("%i", n);
+printf("%i,", n);
 printf("\n");
 }
