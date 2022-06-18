@@ -6,18 +6,21 @@
  *Return: 0
  */
 void print_to_98(int n)
-
-if (n < 98)
+{
+	{
+	if (n < 98)
 	{
 		n++;
 	}
-else
-	if (n > 9)
+	else if (n > 98)
 	{
-		number--;
+		n--;
+	}
+	else if (n == 0)
 	}
 printf("%i", n);
-printf(",");
-printf(" ");
+if (n != 98)
+	printf(",");
+	printf(" ");
 return (0);
 }
