@@ -10,6 +10,7 @@ void more_numbers(void)
 int list;
 int numbers;
 int ten;
+int fourten;
 ten = '9' + '1'
 fourten = '9' + '5'
 for (list = '0' ; list <= ten ; list++)
