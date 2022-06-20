@@ -8,8 +8,8 @@
  */
 int mul(int a, int b)
 {
-int r;
-r = (a * b);
-_putchar (r);
-return (0);
+int result;
+result = (a * b);
+
+return (result);
 }
