@@ -2,7 +2,7 @@
 
 /**
  *_isupper - Diferents in uppercase and others
- *c@: Lether
+ *@c: c is a lether or othercase
  *Return: 0 if c is upper case, 0 othercase
  */
 int _isupper(int c)
