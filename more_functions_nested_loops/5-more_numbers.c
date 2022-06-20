@@ -14,5 +14,5 @@ for (list = '0' ; list <= (10 + '0')  ; list++)
 
 	for (numbers = '0' ; numbers <= (14 + '0') ; numbers++)
 		_putchar(numbers);
-_putchar('\n');
+	_putchar('\n');
 }
