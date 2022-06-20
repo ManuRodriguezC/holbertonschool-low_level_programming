@@ -2,8 +2,8 @@
 
 /**
  *_isdigit - A number between 0 and 9
- *
- *
+ *@c: Caracter
+ *Return: 0 diferent a leteer, 1 is  a letter
  */
 int _isdigit(int c)
 
