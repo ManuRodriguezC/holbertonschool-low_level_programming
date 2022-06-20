@@ -9,13 +9,10 @@ void more_numbers(void)
 {
 int list;
 int numbers;
-int ten;
-int fourten;
-ten = '9' + '1'
-fourten = '9' + '5'
-for (list = '0' ; list <= ten ; list++)
 
-	for (numbers = '0' ; numbers <= fourten ; numbers++)
+for (list = '0' ; list <= (10 + '0')  ; list++)
+
+	for (numbers = '0' ; numbers <= (14 + '0') ; numbers++)
 		_putchar(numbers);
 _putchar('\n');
 }
