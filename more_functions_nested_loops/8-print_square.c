@@ -18,5 +18,5 @@ while (size > 0)
 	size--;
 
 }
-putchar('\n');
+_putchar('\n');
 }
