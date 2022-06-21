@@ -18,7 +18,7 @@ for (number = 1; number <= 100 ; number++)
 		if (number % 5 == 0)
 		{
 			printf("Buzz");
-			if (n != 100)
+			if (number != 100)
 				printf(" ");
 		}
 	else
