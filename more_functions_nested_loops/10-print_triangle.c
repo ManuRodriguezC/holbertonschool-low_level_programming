@@ -2,7 +2,7 @@
 
 /**
  *print_triangle - triangle form
- *@size - any number
+ *@size: any number
  *
  */
 void print_triangle(int size)
@@ -15,15 +15,19 @@ if (size <= 0)
 else
 	for (h = 0 ; h < size ; h++)
 	{
-		for(w = size ; w > 0 ; w-)
+		for (w = size ; w > 0 ; w--)
 			if (h < w)
+			{
 				_putchar('#');
 				if (h == w)
+				{
 					_putchar('#');
 					_putchar('\n');
+				}
+			}
 			else
 				_putchar(' ');
-	
+
 	}
 
 }
