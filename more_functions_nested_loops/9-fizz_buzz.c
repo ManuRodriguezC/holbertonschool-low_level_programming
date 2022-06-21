@@ -31,6 +31,6 @@ for (number = 1; number <= 100 ; number++)
 	printf("%i", number);
 	printf(" ");
 	}
-printf('\n');
+printf("\n");
 return (0);
 }
