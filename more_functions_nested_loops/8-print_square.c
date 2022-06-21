@@ -14,8 +14,8 @@ while (size > 0)
 		_putchar(35);
 		size--;
 	}
-_putchar('\n');
-size--;
+	_putchar('\n');
+	size--;
 }
 _putchar('\n');
 }
