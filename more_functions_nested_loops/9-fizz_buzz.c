@@ -7,6 +7,8 @@
  */
 void main(void)
 {
-for (number = 0; number <= 100 ; number++)
+int number;
+for (number = 1; number <= 100 ; number++)
 	printf(number);
+	printf(" ");
 }
