@@ -15,7 +15,7 @@ if (size <= 0)
 else
 	for (h = 0 ; h < size ; h++)
 	{
-		for (w = size ; w > 0 ; w--)
+		for (w = 0 ; w < size ; w++)
 			if (h <= w)
 			{
 				_putchar('#');
