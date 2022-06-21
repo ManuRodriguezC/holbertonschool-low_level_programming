@@ -9,7 +9,6 @@ void more_numbers(void)
 {
 int list;
 int numbers;
-int fourten;
 
 for (list = '0' ; list <= '9'  ; list++)
 {
