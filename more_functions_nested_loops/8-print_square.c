@@ -14,11 +14,9 @@ else
 {
 for (l = 0 ; l < size ; l++)
 	for (w = 0 ; w < size ; w++)
-		if (l == w)
-		{
-			_putchar('\n');
-		}
-		else
-			_putchar('#');
+	{
+		_putchar('\n');
+	}
+	_putchar('#');
 }
 }
