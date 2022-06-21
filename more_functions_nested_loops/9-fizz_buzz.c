@@ -28,7 +28,7 @@ for (number = 1; number <= 100 ; number++)
 		}
 	else
 	{
-	printf(number);
+	printf("%i", number);
 	printf(" ");
 	}
 return (0);
