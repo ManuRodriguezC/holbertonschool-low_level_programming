@@ -15,4 +15,5 @@ for (l = 0 ; l < size ; l++)
 
 	for (w = 0 ; w < l ; w++)
 		_putchar('#');
+	_putchar('\n');
 }
