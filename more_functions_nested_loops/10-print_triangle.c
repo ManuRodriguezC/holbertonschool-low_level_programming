@@ -11,9 +11,9 @@ int h, w;
 if (size <= 0)
 	_putchar('\n');
 else
-	for (h = size ; h > 0; h--)
+	for (h = 0 ; h < size ; h++)
 	{
-		for (w = 0 ; w < size; w++)
+		for (w = size ; w > 0 ; w--)
 		{
 			_putchar('#');
 		}
