@@ -16,9 +16,9 @@ else
 		for (w = size ; w >= 0 ; w--)
 			if (w <= h)
 				_putchar('#');
-			else 
+			else
 				_putchar(' ');
-		
+
 		_putchar('\n');
 	}
 }
