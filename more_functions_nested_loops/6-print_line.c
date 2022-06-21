@@ -13,9 +13,8 @@ while (n != 0)
 	{
 		_putchar('_');
 		n--;
+	}
+	}
 if (n <= 0)
-	
-	}
-	}
 _putchar('\n');
 }
