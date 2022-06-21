@@ -17,7 +17,7 @@ else
 		{
 			if (w <= (size - h))
 				_putchar(' ');
-			else 
+			else
 				_putchar('#');
 		}
 		_putchar('\n');
