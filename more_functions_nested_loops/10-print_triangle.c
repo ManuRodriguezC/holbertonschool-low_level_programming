@@ -11,14 +11,15 @@ int h, w;
 if (size <= 0)
 	_putchar('\n');
 else
-	for (h = 0 ; h < size ; h++)
+	for (h = 1 ; h <= size ; h++)
 	{
-		for (w = size ; w > 0 ; w--)
-			if (w <= h)
-				_putchar('#');
-			else
+		for (w = 1 ; w <= size ; w++)
+		{
+			if (w <= (size - h))
 				_putchar(' ');
-
+			else 
+				_putchar('#');
+		}
 		_putchar('\n');
 	}
 }
