@@ -18,7 +18,9 @@ for (list = 0 ; list <= 9  ; list++)
 		{
 			_putchar((numbers / 10) + '0');
 			_putchar((numbers % 10) + '0');
-		}
+		
 		_putchar(numbers + '0');
+
+		}
 }
 }
