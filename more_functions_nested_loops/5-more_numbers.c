@@ -20,6 +20,5 @@ for (list = 0 ; list <= 9  ; list++)
 		}
 	_putchar(numbers + '0');
 
-_putchar('\n');
 }
 }
