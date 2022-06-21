@@ -9,14 +9,14 @@ void print_triangle(int size)
 {
 int h, w;
 if (size <= 0)
-        _putchar('\n');
+	_putchar('\n');
 else
-        for (h = 0 ; h < size; h++)
-        {
-                for (w = 0 ; w < size; w++)
-                {
-                        _putchar('#');
-                }
-                _putchar('\n');
-        }
+	for (h = size ; h > 0; h--)
+	{
+		for (w = 0 ; w < size; w++)
+		{
+			_putchar('#');
+		}
+		_putchar('\n');
+	}
 }
