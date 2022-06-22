@@ -3,7 +3,7 @@
 
 /**
  *_strlen - change caractes
- *@*s: caracters
+ *@char *s: caracters
  *@s: new
  *Return: _strlen
  */
