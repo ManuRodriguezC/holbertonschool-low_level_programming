@@ -10,15 +10,16 @@
  */
 void print_rev(char *s)
 {
-int i;
-	while (s[i] != '\0')
+int i = 0;
+int d;
+int longitud = strlen(s);
+char temporal;
+
+	for (d = longitud - 1 ; i < (longitud / 2) ; i++, d--)
 	{
-		i++;
+		temporal = s[i];
+		s[i] = s[d];
+		s[d] = temporal;
 	}
-	i--;
-	while (s[i] != '\0')
-	{
-		_putchar(s[i--]);
-	}
-	_putchar('\n');
+puts(s);
 }
