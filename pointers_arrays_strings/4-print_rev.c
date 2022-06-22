@@ -22,4 +22,5 @@ for (d = longitud - 1 ; i < (longitud / 2) ; i++, d--)
 	s[d] = temporal;
 }
 puts(s);
+return (0);
 }
