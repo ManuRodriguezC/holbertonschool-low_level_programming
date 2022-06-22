@@ -9,6 +9,6 @@
  */
 void _puts(char *str)
 {
-char str[]
+str = [];
 _puts(str);
 }
