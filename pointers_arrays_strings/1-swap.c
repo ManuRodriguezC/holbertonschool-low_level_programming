@@ -12,7 +12,7 @@ void swap_int(int *a, int *b)
 {
 int lol;
 
-lol = *a;
+swap = *a;
 *a = *b;
-*b = lol;
+*b = swap;
 }
