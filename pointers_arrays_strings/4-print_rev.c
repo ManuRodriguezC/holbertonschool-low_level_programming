@@ -13,7 +13,7 @@ void print_rev(char *s)
 int tam, w;
 char invs;
 
-strcpy (invs, s);
+strcpy(invs, s);
 
 tam = strlen(s);
 for (w = 0; w < tam ; w++)
