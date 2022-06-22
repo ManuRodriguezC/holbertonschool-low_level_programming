@@ -18,7 +18,7 @@ int i;
 	i--;
 	while (s[i] != '\0')
 	{
-		printf(s[i--]);
+		_putchar(s[i--]);
 	}
-	printf('\n');
+	_putchar('\n');
 }
