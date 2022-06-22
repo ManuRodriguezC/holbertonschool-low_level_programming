@@ -11,16 +11,16 @@
 void print_rev(char *s)
 {
 int i = 0;
-int d;
+int d = 0;
 int longitud = strlen(s);
 char temporal;
 
-for (d = (longitud - 1) ; i < (longitud / 2) ; i++, d--)
+for (d = longitud - 1 ; i < (longitud / 2) ;i++, d--)
 
 {
 	temporal = s[i];
 	s[i] = s[d];
 	s[d] = temporal;
 }
-puts(s);
+_putchar(s);
 }
