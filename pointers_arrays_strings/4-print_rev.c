@@ -10,5 +10,15 @@
  */
 void print_rev(char *s)
 {
-StrRevers(s);
+int i;
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	i--;
+	while (s[i] != '\0')
+	{
+		printf(s[i--]);
+	}
+	printf('\n');
 }
