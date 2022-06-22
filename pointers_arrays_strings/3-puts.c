@@ -9,5 +9,6 @@
  */
 void _puts(char *str)
 {
-_puts(str"\n");
+char str[]
+_puts(str);
 }
