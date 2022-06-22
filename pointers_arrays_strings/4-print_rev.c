@@ -15,7 +15,7 @@ int d = 0;
 int longitud = strlen(s);
 char temporal;
 
-for (d = longitud - 1 ; i < (longitud / 2) ;i++, d--)
+for (d = longitud - 1 ; i < (longitud / 2) ; i++, d--)
 
 {
 	temporal = s[i];
