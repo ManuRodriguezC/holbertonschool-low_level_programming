@@ -22,5 +22,5 @@ for (d = longitud - 1 ; i < (longitud / 2) ;i++, d--)
 	s[i] = s[d];
 	s[d] = temporal;
 }
-_putchar(s);
+puts(s);
 }
