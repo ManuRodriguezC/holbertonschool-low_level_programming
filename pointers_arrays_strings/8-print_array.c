@@ -10,7 +10,7 @@
  */
 void print_array(int *a, int *n)
 {
-int leni, i;
+int len, i;
 
 len = strlen(array)
 
