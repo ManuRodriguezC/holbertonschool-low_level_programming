@@ -18,7 +18,8 @@ for (box = 0 ; s[box] != '\0' ; box++)
 size++;
 
 for (revers = (size - 1) ; revers >= 0 ; revers--)
-
-_putchar(s[revers]);
-_putchar('\n');
+{
+	_putchar(s[revers]);
+	_putchar('\n');
+}
 }
