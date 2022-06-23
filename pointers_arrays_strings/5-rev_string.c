@@ -10,8 +10,9 @@
  */
 void rev_string(char *s)
 {
-int x, i;
+int i;
 int t = 0;
+char x;
 
 puts(s);
 
