@@ -11,7 +11,7 @@ char *_strcpy(char *dest, char *src)
 {
 puts(src);
 
-dest = srtcpy(src);
+dest = strcpy(src);
 
 puts(dest);
 
