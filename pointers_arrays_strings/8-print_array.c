@@ -4,15 +4,14 @@
 /**
  *print_array - vector int
  *@*a: array 
- *@*n: numbers
+ *@n: numbers
  *@a: a
- *@n: n
  *
  */
-void print_array(int *a, int *n)
+void print_array(int *a, int n)
 {
 int i;
 
-for (i = 0 ; i < *n ; i++)
+for (i = 0 ; i < n ; i++)
 	printf("%c", a[i]);
 }
