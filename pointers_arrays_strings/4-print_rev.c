@@ -10,15 +10,15 @@
  */
 void print_rev(char *s)
 {
-int i, x;
-int t = 0;
+int box, revers;
+int size = 0;
 
-for (i = 0 ; s[i] != '\0' ; i++)
+for (box = 0 ; s[box] != '\0' ; box++)
 
-t++;
+size++;
 
-for (x = (t - 1) ; x >= 0 ; x--)
+for (revers = (size - 1) ; revers >= 0 ; revers--)
 
-_putchar(s[x]);
+_putchar(s[revers]);
 _putchar('\n');
 }
