@@ -12,11 +12,11 @@ void print_rev(char *s)
 {
 int i, x;
 
-for (i = 0 ; i == '\0' ; i++)
+for (i = 0 ; i == s[i] ; i++)
 {
 x = i++;
 }
-for (x = x - 1; x >= 0; x--)
+for (x = (x - 1); x >= 0; x--)
 
 _putchar(s[x])
 }
