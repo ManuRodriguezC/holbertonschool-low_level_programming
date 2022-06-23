@@ -18,6 +18,7 @@ for (box = 0 ; s[box] != '\0' ; box++)
 size++;
 putchar(s[box]);
 }
+_putchar('\n');
 for (revers = (size - 1) ; revers >= 0 ; revers--)
 _putchar(s[box]);
 
