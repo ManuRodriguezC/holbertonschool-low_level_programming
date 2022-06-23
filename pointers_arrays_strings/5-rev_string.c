@@ -13,8 +13,10 @@ int i, x;
 int t = 0;
 
 for (i = 0 ; s[i] != '\0' ; i++)
-t++;
-puts(s);
+{
+	t++;
+	_putchar(s[i]);
+}
 for (x = (t - 1) ; x >= 0 ; x--)
-puts(s[x]);
+	puts(s[x]);
 }
