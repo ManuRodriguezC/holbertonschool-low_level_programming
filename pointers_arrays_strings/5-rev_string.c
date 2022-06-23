@@ -20,6 +20,5 @@ size++;
 for (revers = (size - 1) ; revers >= 0 ; revers--)
 {
 	_putchar(s[revers]);
-	_putchar('\n');
 }
 }
