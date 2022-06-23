@@ -19,5 +19,5 @@ for (i = 0 ; s[i] != '\0' ; i++)
 }
 _putchar('\n');
 for (x = (t - 1) ; x >= 0 ; x--)
-	_putchar([x]);
+	_putchar(x);
 }
