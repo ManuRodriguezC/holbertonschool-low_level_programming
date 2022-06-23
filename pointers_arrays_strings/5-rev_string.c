@@ -1,18 +1,24 @@
 #include "main.h"
 #include <stdio.h>
+#include <string.h>
 
 /**
- *rev_string - revers of string
- *@*s: pointer s
- *@s: variable
+ *rev_string - ver
+ *@*s: string
+ *@s: gnirts
  *
  */
 void rev_string(char *s)
 {
-int i, x;
-int t = 0;
-for (i = 0 ; s[i] != '\0' ; i++)
-t++;
-_putchar(s[i]);
-for (x = (t - 1) ; x >= 0 ; x--)
+int box, revers;
+int size = 0;
+
+for (box = 0 ; s[box] != '\0' ; box++)
+
+size++;
+
+for (revers = (size - 1) ; revers >= 0 ; revers--)
+
+_putchar(s[revers]);
+_putchar('\n');
 }
