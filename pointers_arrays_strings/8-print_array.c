@@ -14,7 +14,4 @@ int i;
 
 for (i = 0 ; i < n ; i++)
 	printf("%c", a[i]);
-	if (i != n)
-		printf(",");
-		printf(" ");
 }
