@@ -3,16 +3,18 @@
 #include <stdio.h>
 
 /**
- **_strcpy - copy string
+ * *_strcpy - copy string
  *@dest: new string
- *@str: orogin string
+ *@str: origin string
+ *@*str: value string
+ *@*dest: value new string
+ *
  */
 char *_strcpy(char *dest, char *src)
 {
-puts(src);
+strcpy(dest, src);
 
-dest = strcpy(src);
-
-puts(dest);
-
+printf("%s", src);
+print("\n");
+printf("%s", dest);
 }
