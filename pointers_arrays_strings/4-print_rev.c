@@ -16,7 +16,7 @@ for (i = 0 ; i == s[i] ; i++)
 {
 x = i++;
 }
-for (x = (x - 1); x >= 0; x--)
+for (x = s[i] ; x >= 0; x--)
 
 _putchar(s[x])
 }
