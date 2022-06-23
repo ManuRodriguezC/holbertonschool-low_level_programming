@@ -14,11 +14,9 @@ int box, revers;
 int size = 0;
 
 for (box = 0 ; s[box] != '\0' ; box++)	
-{
+
 size++;
-putchar(s[box]);
-}
-_putchar('\n');
 
 for (revers = (size - 1) ; revers >= 0 ; revers--)i
+_putchar(s[revers]);
 }
