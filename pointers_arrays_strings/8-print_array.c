@@ -4,6 +4,8 @@
 
 /**
  *print_array - vector int
+ *@*a: array 
+ *@*n: numbers
  *@a: a
  *@n: n
  *
