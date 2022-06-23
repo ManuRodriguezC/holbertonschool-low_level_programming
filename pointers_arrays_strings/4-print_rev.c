@@ -10,17 +10,13 @@
  */
 void print_rev(char *s)
 {
-int i = 0;
-int d = 0;
-int longitud = strlen(s);
-char temporal;
+int i, x;
 
-for (d = longitud - 1 ; i < (longitud / 2) ; i++, d--)
-
+for (i = 0 ; i == '\0' ; i++)
 {
-	temporal = s[i];
-	s[i] = s[d];
-	s[d] = temporal;
+x = i++;
 }
-puts(s);
+for (x = x - 1; x >= 0; x--)
+
+_putchar(s[x])
 }
