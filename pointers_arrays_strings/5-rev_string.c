@@ -3,12 +3,12 @@
 #include <string.h>
 
 /**
- *print_rev - revers of string
+ *rev_string - revers of string
  *@*s: pointer s
  *@s: variable
  *
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 int x, i;
 int t = 0;
