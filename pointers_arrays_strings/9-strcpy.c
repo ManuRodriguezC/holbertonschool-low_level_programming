@@ -13,7 +13,6 @@
 char *_strcpy(char *dest, char *src)
 {
 strcpy(dest, src);
-
 printf("%s", src);
 printf("\n");
 printf("%s", dest);
