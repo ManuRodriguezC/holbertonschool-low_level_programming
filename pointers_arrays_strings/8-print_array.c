@@ -12,11 +12,11 @@ void print_array(int *a, int *n)
 {
 int len, i;
 
-len = strlen(array)
+len = strlen(array);
 
 for (i = 0 ; i <= len ; i++)
 	printf(array[i]);
 		if (i != len)
-			printf(',');
-			printf(' ');
+			printf(",");
+			printf(" ");
 }
