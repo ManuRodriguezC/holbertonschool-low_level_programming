@@ -10,14 +10,15 @@
  */
 void rev_string(char *s)
 {
-int box, revers;
-int size = 0;
+char point = s[0]
+int i, t, x;
+for (i = 0 ; i < '\0' ; i++)
+	t++;
+for (x = 0 ; x < t ; x++)
+	t--;
 
-for (box = 0 ; s[box] != '\0' ; box++)	
+point = s[x];
+s[x] = s[t];
+s[t] = point;
 
-size++;
-
-for (revers = (size - 1) ; revers >= 0 ; revers--)i
-_putchar(s[revers]);
-_putchar('\n')
 }
