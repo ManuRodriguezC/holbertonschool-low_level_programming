@@ -16,8 +16,8 @@ int i;
 
 for (i = 0 ; src[i] <= '\0' ; i++)
 
-strcpy(dest[i], src[i]);
+dest = src[i]);
 
-return (dest[i]);
+return (dest);
 
 }
