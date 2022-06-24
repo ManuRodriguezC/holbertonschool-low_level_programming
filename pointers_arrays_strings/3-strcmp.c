@@ -16,9 +16,15 @@ for (j = 0 ; s2[j] != '\0' ; j++)
 t2++;
 
 if (t1 > t2)
+{
 	return (-1);
+}
 else if (t2 > t1)
+{
 	return (1);
+}
 else if (t1 == t2)
+{
 	return (0);
+}
 }
