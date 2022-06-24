@@ -12,6 +12,12 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-puts(*str);
-return (0);
+int i;
+
+for (i = 0 ; src[i] <= '\0' ; i++)
+
+strcpy(dest[i], src[i]);
+
+return (dest[i]);
+
 }
