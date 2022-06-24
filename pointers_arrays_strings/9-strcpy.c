@@ -5,17 +5,13 @@
 /**
  * *_strcpy - copy string
  *@dest: new string
- *@src: origin string
- *@*src: value string
+ *@str: origin string
+ *@*str: value string
  *@*dest: value new string
- *Return: 0
+ *
  */
 char *_strcpy(char *dest, char *src)
 {
-char i;
-
-for (i = 0 ; src[i] <= '\0' ; i++)
-	printf(src[i]);
-
+puts(str);
 return (0);
 }
