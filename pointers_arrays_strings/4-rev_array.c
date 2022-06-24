@@ -5,7 +5,7 @@
  *reverse_array - yarra
  *@n: numbers
  *@a: array
- *Return: 0
+ *
  */
 void reverse_array(int *a, int n)
 {
@@ -18,5 +18,4 @@ for (x = 0 ; x < i ; x++)
 	i--;
 	printf("%d", a[i]);
 	}
-return (0);
 }
