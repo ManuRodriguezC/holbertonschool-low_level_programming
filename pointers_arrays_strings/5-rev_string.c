@@ -11,7 +11,8 @@
 void rev_string(char *s)
 {
 char point = s[0]
-int i, x;
+int i;
+int x;
 int t = 0;
 for (i = 0 ; i < '\0' ; i++)
 	t++;
