@@ -11,14 +11,15 @@
 void rev_string(char *s)
 {
 char point = s[0]
-int i, t, x;
+int i, x;
+int t = 0;
 for (i = 0 ; i < '\0' ; i++)
 	t++;
 for (x = 0 ; x < t ; x++)
+{
 	t--;
-
-point = s[x];
-s[x] = s[t];
-s[t] = point;
-
+	point = s[x];
+	s[x] = s[t];
+	s[t] = point;
+}
 }
