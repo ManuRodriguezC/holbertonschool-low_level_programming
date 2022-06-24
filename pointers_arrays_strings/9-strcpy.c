@@ -5,8 +5,8 @@
 /**
  * *_strcpy - copy string
  *@dest: new string
- *@str: origin string
- *@*str: value string
+ *@src: origin string
+ *@*src: value string
  *@*dest: value new string
  *Return: dest
  */
