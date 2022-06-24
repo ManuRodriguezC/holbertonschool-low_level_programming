@@ -10,9 +10,8 @@
  */
 void rev_string(char *s)
 {
-char point = s[0]
-int i;
-int x;
+char point = s[0];
+int i, x;
 int t = 0;
 for (i = 0 ; i < '\0' ; i++)
 	t++;
