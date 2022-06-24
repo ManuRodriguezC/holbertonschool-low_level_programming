@@ -16,7 +16,7 @@ for (i = 0 ; i < n ; i++)
 for (x = 0 ; x < i ; x++)
 	{
 	i--;
-	printf(a[x]);
+	printf(a[i]);
 	}
 return (0);
 }
