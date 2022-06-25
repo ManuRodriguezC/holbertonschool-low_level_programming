@@ -19,6 +19,6 @@ if (t1 < t2)
 	return (-15);
 else if (t2 < t1)
 	return (15);
-else if (t1 = t1)
+else if (t1 == t1)
 	return (0);
 }
