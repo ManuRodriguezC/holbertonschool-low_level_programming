@@ -11,6 +11,7 @@ int _strcmp(char *s1, char *s2)
 int i, j;
 int t1 = 0;
 int t2 = 0;
+{
 for (i = 0 ; s1[i] != '\0' ; i++)
 	t1++;
 for (j = 0 ; s2[j] != '\0' ; j++)
@@ -19,4 +20,5 @@ if (t1 < t2)
 	return (-1);
 else if (t2 < t1)
 	return (1);
+}
 }
