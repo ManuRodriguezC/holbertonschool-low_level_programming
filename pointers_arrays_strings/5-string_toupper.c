@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *
- *
- *
+ * *string_toupper - Change toupper
+ * @a: string
+ *Return: 0
  */
 char *string_toupper(char *a)
 {
