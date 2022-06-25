@@ -16,9 +16,9 @@ for (i = 0 ; s1[i] != '\0' ; i++)
 for (j = 0 ; s2[j] != '\0' ; j++)
 	t2++;
 if (t1 < t2)
-	return (-15);
+	return (-1);
 else if (t2 < t1)
-	return (15);
+	return (1);
 else if (t1 == t1)
 	return (0);
 }
