@@ -23,6 +23,6 @@ if (t1 < t2)
 else if (t2 < t1)
 	return (1);
 else if (t1 == t3)
-	(return (0);)
+	(return (0);
 }
 }
