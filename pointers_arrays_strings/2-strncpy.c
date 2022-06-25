@@ -17,7 +17,7 @@ while (i < n && src[i] != '\0')
 	i++;
 }
 {
-if (dest[i] == n )
+if (src[i] == '\0' )
 	dest[i] = '\0';
 }
 return (dest);
