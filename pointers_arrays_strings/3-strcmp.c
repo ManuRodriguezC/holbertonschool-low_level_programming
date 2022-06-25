@@ -27,4 +27,3 @@ else if (t2 < t1)
 else if (t1 == t3)
 	return (0);
 }
-}
