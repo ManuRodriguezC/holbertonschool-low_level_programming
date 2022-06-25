@@ -5,18 +5,15 @@
  *
  *
  */
-char *string_toupper(char *)
+char *string_toupper(char *a)
 {
 int i;
-int min;
-int may;
-for (min = 'a' ; min <= 'z' ; min++)
-for (may = 'A' ; may <= 'Z' ; may++)
 
-for (i = 0 ; *[i] <= '\0' ; i++)
-{	
-if (*[i] == min)
-	*[i] = may;
+for (i = 0 ; a[i] != '\0' ; i++)
+{
+	if (a[i] >= 'a' && a[i] <= 'z')
+		a[i] -= 'a' - 'A';
 }
-return (*);
+
+return (a);
 }
