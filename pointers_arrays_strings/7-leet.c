@@ -10,6 +10,7 @@ char *leet(char *s)
 {
 int i;
 for (i = 0 ; s[i] != '\0' ; i++)
+{
 	if (s[i] == 'a' && s[i] == 'A')
 		s[i] = 4;
 	else if (s[i] == 'e' && s[i] == 'E')
@@ -20,5 +21,6 @@ for (i = 0 ; s[i] != '\0' ; i++)
 		s[i] = 7;
 	else if (s[i] == 'l' && s[i] == 'L')
 		s[i] = 1;
-return (a);
+}
+return (s);
 }
