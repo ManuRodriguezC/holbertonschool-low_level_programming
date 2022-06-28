@@ -8,13 +8,17 @@
  */
 char *cap_string(char *a)
 {
-int i;
-
-for (i = 0 ; a[i] < '\0' ; i++)
-{
-if (a[i] == ' ')
-	if (a[i + 1] >= 'a' && a[i + 1] <= 'z')
-		a[i + 1] -= 'a' - 'A';
-}
+int i, j;
+char sep[arra] = " \t\n,;.!?\"(){}";
+i = 1
+if (a[0] >= 'a' && a[0] <= 'z')
+	a[0] -= ('a' - 'A');
+while (a[i] != '\0')
+	{
+	for (j = 0; sep[j] != '\0'; j++)
+		if (a[i - 1] == sep[j] && (a[i] >= 'a' && a[i] <= 'z'))
+			s[i] -= ('a' - 'A');
+	i++;
+	}
 return (a);
 }
