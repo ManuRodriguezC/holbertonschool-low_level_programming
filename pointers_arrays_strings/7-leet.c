@@ -6,7 +6,7 @@
  *@s: string
  *Return: a
  */
-char *leet(char *a)
+char *leet(char *s)
 {
 int i;
 for (i = 0 ; s[i] != '\0' ; i++)
