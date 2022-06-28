@@ -17,7 +17,7 @@ while (a[i] != '\0')
 {
 for (j = 0; sep[j] != '\0'; j++)
 	if (a[i - 1] == sep[j] && (a[i] >= 'a' && a[i] <= 'z'))
-		sep[i] -= ('a' - 'A');
+		a[i] -= ('a' - 'A');
 i++;
 }
 return (a);
