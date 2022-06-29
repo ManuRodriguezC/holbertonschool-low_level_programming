@@ -14,7 +14,7 @@ int i = 0;
 int j;
 for (j = 0 ; j < n ; j++)
 
-while (i < n && s[i] != '\0')
+while (i < j && s[i] != '\0')
 	if (s[i] < n)
 		s[i] = b;
 i++;
