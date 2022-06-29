@@ -12,9 +12,9 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 int i;
 
-while (s[i] < n && s[i] != '\0')
+while (src[i] < n && src[i] != '\0')
 {
-	dest = s[i];
+	dest = src[i];
 	i++;
 }
 return (dest);
