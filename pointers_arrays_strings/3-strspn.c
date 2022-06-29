@@ -2,13 +2,14 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ *_strspn - length
+ *@s: string origin
+ *@accept: string two
+ *Return: cont
  */
 unsigned int _strspn(char *s, char *accept)
 {
-int i, j, cont;
+int i, j, cont = 0;
 while (s[i] == accept[j])
 {
 	for (i = 0 ; s[i] != '\0' ; i++)
