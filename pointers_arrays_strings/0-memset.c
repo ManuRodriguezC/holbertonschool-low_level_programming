@@ -14,7 +14,7 @@ int i, j;
 
 for (i = 0 ; s[i] != '\0' ; i++)
 
-for (j = 0 ; s[j] < n ; j++)
+for (j = 0 ; s[j] <= n ; j++)
 {
 	s[j] -= b;
 	s[i] = s[j] + s[i];
