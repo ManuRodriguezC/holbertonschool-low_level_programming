@@ -18,7 +18,7 @@ for (i = 0 ; s[i] ; i++)
 		if (accept[j] == s[i])
 			break;
 	}
-	if (!accetp[j])
+	if (!accept[j])
 		break;
 }
 return (i);
