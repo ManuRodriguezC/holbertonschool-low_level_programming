@@ -13,11 +13,16 @@ int i, j, cont = 0;
 
 for (i = 0 ; s[i] != '\0' ; i++)
 {
-for (j = 0 ; accept[j] != '\0' ; j++)
-{
-	if (accept[j] == *s)
-		cont++;
-}
+	for (j = 0 ; accept[j] != '\0' ; j++)
+	{
+		if (accept[j] == *s)
+		{
+			cont++;
+			break;
+		}
+		else if (accept[j + 1] == '\0')
+			return (cont);
+	}
 }
 return (cont);
 }
