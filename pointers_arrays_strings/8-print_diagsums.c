@@ -16,7 +16,7 @@ sum1 += *(a + p);
 }
 for (j = 0 ; j < size ; j++)
 {
-p = (i * size) + (size - 1 - j);
+p = (j * size) + (size - 1 - j);
 sum2 += *(a + p);
 }
 printf("%i, %i\n", sum1, sum2);
