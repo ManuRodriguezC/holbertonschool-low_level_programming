@@ -15,6 +15,7 @@ p = (i * size) + i;
 sum1 += *(a + p);
 }
 for (j = 0 ; j < size ; j++)
+{
 p = (i * size) + (size - 1 - j);
 sum2 += *(a + p);
 }
