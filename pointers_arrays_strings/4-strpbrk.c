@@ -15,7 +15,7 @@ for (i = 0 ; s[i] != '\0' ; i++)
 	for (j = 0 ; accept[j] != '\0' ; j++)
 	{
 		if (*s == *accept)
-		return (*s);
+		return (s);
 	}
 return ('\0');
 }
