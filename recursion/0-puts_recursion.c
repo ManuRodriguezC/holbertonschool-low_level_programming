@@ -16,5 +16,5 @@ if (s[i] <= '\0')
 
 int main(void)
 {
-_putchar(s);
+_putchar(*s);
 }
