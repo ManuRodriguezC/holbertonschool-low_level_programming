@@ -14,8 +14,7 @@ int i;
 for (i = 0 ; s[i] != '\0' ; i++)
 {
 	if (s[i] == c)
-		return (c);
-	else
-		return (NULL);
+		return (s + i);
 }
+return (NULL);
 }
