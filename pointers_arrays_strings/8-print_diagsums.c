@@ -19,5 +19,5 @@ for (j = 0 ; j < size ; j++)
 p = (i * size) + (size - 1 - j);
 sum2 += *(a + p);
 }
-printf("%i, %i\n" sum1, sum2);
+printf("%i, %i\n", sum1, sum2);
 }
