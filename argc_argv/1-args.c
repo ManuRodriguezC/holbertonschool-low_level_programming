@@ -16,7 +16,7 @@ for (i = 0 ; i < argc ; i++)
 
 for (j = 0 ; j < argv[i] ; j++)
 
-rintf("%d\n", argc);
+printf("%d\n", argc);
 
 return (0);
 }
