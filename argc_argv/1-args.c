@@ -14,7 +14,8 @@ int i, j;
 
 
 for (i = 0 ; i < argc ; i++)
-printf("%d\n", argc);
+	printf("%d\n", argc);
+
 for (j = 0 ; j < *argv[i] ; j++)
 
 return (0);
