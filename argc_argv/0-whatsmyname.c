@@ -8,9 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-char i;
+int i, j;
 
-for (i = 0; i < argc; i++)
+for (j = 0 ; j < arcg ; j++)
+
+for (i = 0; i < j; i++)
 {
 	_putchar(argv[i]);
 }
