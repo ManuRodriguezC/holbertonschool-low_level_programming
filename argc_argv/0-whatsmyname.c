@@ -14,7 +14,7 @@ for (j = 0 ; j < argc ; j++)
 
 for (i = 0; i < j; i++)
 {
-	_putchar(*argv);
+	_putchar(*argv[i]);
 }
 return (0);
 }
