@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  *main - print name
@@ -14,7 +15,7 @@ for (j = 0 ; j < argc ; j++)
 
 for (i = 0; i < j; i++)
 {
-	_putchar(*argv[i]);
+	printf("%s", argv[i]);
 }
 return (0);
 }
