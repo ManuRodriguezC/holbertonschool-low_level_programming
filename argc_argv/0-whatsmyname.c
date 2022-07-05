@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  *main - print name
@@ -9,11 +10,9 @@
  */
 int main(int argc, char *argv[])
 {
-int i, j;
+int i;
 
-for (j = 0 ; j < argc ; j++)
-
-for (i = 0; i < j; i++)
+for (i = 0; i < argc ; i++)
 {
 	printf("%s", argv[i]);
 }
