@@ -10,10 +10,8 @@
  */
 int main(int argc, char *argv[])
 {
-int i;
-for (i = 0 ; i < argv[i] ; i++)
 
-printf("%d", argc);
-printf("\n");
+printf("%d\n", argc);
+
 return (0);
 }
