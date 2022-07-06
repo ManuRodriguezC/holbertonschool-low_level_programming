@@ -10,25 +10,25 @@
  */
 int main(int argc, char *argv[])
 {
-int i, j;
+int i; 
+int j = 0;
+int sum = 0;
+int tem = 0;
+
+for (i = 0 ; i < argc ; i ++)
 {
-for (j = 0 ; j <= 'a' && j >= 'z' ; j++)
-}
-{
-	if (argv[i] = 0)
+	while (argv[i][j])
 	{
-		printf("'0'\n");
+		if (isdigit(argv[i][j]) == 0)
+		{
+			printf("Error\n");
+			return (1);
+		}
+		j++;
 	}
-	if (argv[i] = j)
-	{
-		printf("Error\n");
-		return (1);
+		tem = atoi(argv[i]);
+		sum = tem + sum;
 	}
-	if (argv[i] > 0)
-	{
-		sum += strtol(argv[i]);
-	}
-	printf("%d\n", sum);
-}
+printf("%d\n", sum);
 return (0);
 }
