@@ -20,7 +20,7 @@ for (i = 0 ; i < argc ; i++)
 	}
 	printf("%d\n", mul);
 
-	if (i < 2)
+	if (i < 1)
 	{
 		printf("Error\n");
 		return (1);
