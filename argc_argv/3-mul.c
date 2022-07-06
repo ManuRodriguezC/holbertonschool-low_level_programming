@@ -19,7 +19,7 @@ if (argc > 1)
 	mul = *argv[i] * *argv[i + 1];
 }
 printf("%d\n", mul);
-}
+
 if (argc < 2)
 {
 	printf("Error\n");
