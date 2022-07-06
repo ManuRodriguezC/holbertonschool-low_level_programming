@@ -16,7 +16,7 @@ for (i = 0 ; i < argc ; i++)
 {
 	if (i > 1)
 	{
-		mul = (*argv[i] * *argv[i + 1]);
+		mul = (*argv[1] * *argv[2]);
 		printf("%d\n", mul);
 	}
 
