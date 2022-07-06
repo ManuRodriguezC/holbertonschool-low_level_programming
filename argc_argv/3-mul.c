@@ -15,9 +15,9 @@ int mul = 0;
 if (argc > 1)
 	for (i = 1 ; i < argc ; i++)
 	{
-	mul = mul * *argv[i];
-	printf("%d\n", mul);
+	mul = *argv[i] * *argv[i + 1];
 	}
+	printf("%d\n", mul);
 else
 printf("Error");
 return (1);
