@@ -12,11 +12,11 @@ int main(int argc, char *argv[])
 int i;
 int mul = 0;
 
-if (argc > 0)
+if (argc > 1)
 {
-	for (i = 0 ; i < argc ; i++)
+	for (i = 1 ; i < argc ; i++)
 	{
-	mul = *argv[i] * *argv[i + 1];
+	mul = mul * *argv[i];
 	printf("%d\n", mul);
 	}
 }
