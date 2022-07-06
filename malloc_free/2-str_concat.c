@@ -3,9 +3,10 @@
 #include <string.h>
 
 /**
- *
- *
- *
+ * *str_concat - two strings
+ *@s1: firts string
+ *@s2: second string
+ *Return: 0, 1, 2
  */
 char *str_concat(char *s1, char *s2)
 {
