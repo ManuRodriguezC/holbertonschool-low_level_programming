@@ -18,7 +18,7 @@ if (argc > 1)
 	mul = *argv[i] * *argv[i + 1];
 	}
 	printf("%d\n", mul);
-else
-printf("Error");
-return (1);
+else if
+	printf("Error");
+	return (1);
 }
