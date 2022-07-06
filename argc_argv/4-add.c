@@ -14,13 +14,11 @@ int i, j;
 {
 for (j = 0 ; j <= 'a' && j >= 'z' ; j++)
 }
-for (i = 0; i < argc ; i++)
-{
-	if (argv[i] == 0)
+	if (argv[i] = 0)
 	{
 		printf("'0'\n");
 	}
-	if (argv[i] == j)
+	if (argv[i] = j)
 	{
 		printf("Error\n");
 		return (1);
