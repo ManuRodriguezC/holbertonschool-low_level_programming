@@ -14,12 +14,12 @@ int mul = 0;
 
 for (i = 0 ; i < argc ; i++)
 
-if (argc > 1)
+if (i > 1)
 	mul = *argv[i] * *argv[i + 1];
 
 printf("%d\n", mul);
 
-if (argc < 2)
+if (i < 2)
 {
 	printf("Error\n");
 	return (1);
