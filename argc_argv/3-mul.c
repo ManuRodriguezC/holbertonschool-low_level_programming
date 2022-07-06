@@ -23,6 +23,7 @@ for (i = 0 ; i < argc ; i++)
 	if (i < 1)
 	{
 		printf("Error\n");
+		return (1);
 	}
 }
 return (0);
