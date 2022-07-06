@@ -9,21 +9,14 @@
  */
 int main(int argc, char *argv[])
 {
-int i;
-int mul = 0;
+int i, j;
 
-for (i = 0 ; i < argc ; i++)
+if (argv != 3)
+	printf("Error\n");
+else
 {
-	if (i > 1)
-	{
-		mul = (*argv[1] * *argv[2]);
-		printf("%d\n", mul);
-	}
-
-	if (i < 1)
-	{
-		printf("Error\n");
-	}
+	i = strtol(argv[1], 0, 10);
+	j = strtol(argv[2], 0, 10);
+	printf("%d\n", i * j);
 }
 return (0);
-}
