@@ -5,7 +5,7 @@
  *main - print name
  *@argc: number caracters
  *@argv: caracter
- *Return: 1
+ *Return: 0
  */
 int main(int argc, char *argv[])
 {
