@@ -20,3 +20,4 @@ j = strtol(argv[2], 0, 10);
 printf("%d\n", i * j);
 }
 return (0);
+}
