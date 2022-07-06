@@ -9,18 +9,19 @@
  */
 int main(int argc, char *argv[])
 {
-int i;
+int i, j;
 int mul = 0;
 
 for (i = 0 ; i < argc ; i++)
 {
 	if (i > 2)
 	{
-		mul = (*argv[i] * *argv[i + 1]);
+		for (j = 0 ; j < *argv[j] ; j++)
+		mul = (*argv[j] * *argv[j + 1]);
 	}
 	printf("%d\n", mul);
 
-	else if (i < 1)
+	if (i < 1)
 	{
 		printf("Error\n");
 		return (1);
