@@ -25,4 +25,5 @@ if (argc < 1)
 	printf("Error");
 	return (1);
 }
+return (0);
 }
