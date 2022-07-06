@@ -20,7 +20,7 @@ if (argc > 1)
 	}
 	printf("%d\n", mul);
 }
-if (argc < 1)
+if (argc <= 1)
 {
 	printf("Error");
 	return (1);
