@@ -15,8 +15,8 @@ if (argc != 3)
 	printf("Error\n");
 else
 {
-	i = strtol(argv[1], 0, 10);
-	j = strtol(argv[2], 0, 10);
-	printf("%d\n", i * j);
+i = strtol(argv[1], 0, 10);
+j = strtol(argv[2], 0, 10);
+printf("%d\n", i * j);
 }
 return (0);
