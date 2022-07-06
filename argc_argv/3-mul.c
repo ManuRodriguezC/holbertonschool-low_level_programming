@@ -13,13 +13,12 @@ int i;
 int mul = 0;
 
 if (argc > 1)
-{
 	for (i = 1 ; i < argc ; i++)
 	{
 	mul = mul * *argv[i];
 	printf("%d\n", mul);
 	}
-}
-printf("Erro");
+else
+printf("Error");
 return (1);
 }
