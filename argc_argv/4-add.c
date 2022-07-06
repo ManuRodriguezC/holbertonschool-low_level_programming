@@ -14,6 +14,7 @@ int i, j;
 {
 for (j = 0 ; j <= 'a' && j >= 'z' ; j++)
 }
+{
 	if (argv[i] = 0)
 	{
 		printf("'0'\n");
