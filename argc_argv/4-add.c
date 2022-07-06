@@ -16,9 +16,9 @@ for (i = 0; i < argc ; i++)
 {
 	if (argv[i] == 0)
 	{
-		printf("0\,");
+		printf("0\n");
 	}
-	if (argv[i] != int)
+	if (argv[i] == (argv[i] >'a' && argv[i] < 'z'))
 	{
 		printf("Error\n");
 		return (1);
@@ -27,7 +27,7 @@ for (i = 0; i < argc ; i++)
 	{
 		sum += argv[i];
 	}
-	printf("%d", sum);
+	printf("%d\n", sum);
 }
 return (0);
 }
