@@ -2,16 +2,17 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
+ * *create_array - new array
+ *@size: size
+ *@c; character
+ *Return: 0
  */
 char *create_array(unsigned int size, char c)
 {
-new = malloc(sizeof(char) * size)
+char new [];
+new = malloc(sizeof(char) * size);
 
 if (!new)
 	return (NULL);
-
-
+return (0);
 }
