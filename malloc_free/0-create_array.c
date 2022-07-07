@@ -19,6 +19,6 @@ if (!new)
 
 for (i = 0 ; i < size ; i++)
 	new[i] = c;
-return (c);
+return (new);
 free(new);
 }
