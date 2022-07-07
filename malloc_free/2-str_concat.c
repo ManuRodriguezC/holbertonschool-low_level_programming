@@ -24,10 +24,13 @@ s3 = malloc(sizeof(*s3) * len + 1);
 
 if (!s3)
 	return (NULL);
+
 for (i = 0 ; s1[i] != '\0' ; i++)
 	s3[i] = s1[i];
-for (j = 0 ; s2[j] != '\0' ; j++)
+
+for (j = 0 ; s2[j] != '\0' ; j++, i++)
 	s3[i] = s2[i];
+
 s3[i + j] = '\0';
 
 return (s3);
