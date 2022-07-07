@@ -1,11 +1,11 @@
 #include "main.h"
-#include <stdlib.c>
+#include <stdlib.h>
 #include <string.h>
 
 /**
- *
- *
- *
+ * *_strdup - copy string
+ *@str: string
+ *Return: dest
  */
 char *_strdup(char *str)
 {
