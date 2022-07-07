@@ -14,7 +14,7 @@ unsigned int i;
 
 new = malloc(sizeof(char) * size);
 
-if (!new)
+if (!new || size == 0)
 	return (NULL);
 
 for (i = 0 ; i < size ; i++)
