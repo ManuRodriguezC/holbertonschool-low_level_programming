@@ -4,7 +4,7 @@
 /**
  * *create_array - new array
  *@size: size
- *@c; character
+ *@c: character
  *Return: 0
  */
 char *create_array(unsigned int size, char c)
@@ -18,7 +18,7 @@ new = malloc(sizeof(char) * size);
 
 if (!new)
 	return (NULL);
-if (new[i] == c)
+if (*new[i] == c)
 
 free(new);
 return (0);
