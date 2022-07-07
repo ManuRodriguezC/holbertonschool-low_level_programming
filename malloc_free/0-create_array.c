@@ -18,6 +18,7 @@ new = malloc(sizeof(char) * size);
 
 if (!new)
 	return (NULL);
+if (new[i] == c)
 
 free(new);
 return (0);
