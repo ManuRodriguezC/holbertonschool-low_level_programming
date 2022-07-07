@@ -9,8 +9,8 @@
  */
 char *create_array(unsigned int size, char c)
 {
-char *new [];
-int i;
+char *new;
+unsigned int i;
 new = malloc(sizeof(char) * size);
 
 if (!new)
