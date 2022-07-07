@@ -15,7 +15,7 @@ int len = 0;
 
 len = strlen(str);
 
-dest = malloc(sizeof(*dest) * len + 1);
+dest = malloc(sizeof(char) * len + 1);
 
 if (!str)
 	return (NULL);
