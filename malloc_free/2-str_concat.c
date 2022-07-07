@@ -20,7 +20,7 @@ if (s2 == NULL)
 
 unsigned int len = strlen(s1) + strlen(s2);
 
-s3 = malloc(sizeof(*s3) * len + 1)
+s3 = malloc(sizeof(*s3) * len + 1);
 
 if (!s3)
 	return (NULL);
