@@ -19,7 +19,7 @@ dest = malloc(sizeof(*dest) * i);
 if (!str)
 	return (NULL);
 
-for (j = 0 ; dest[j] != '\0' ; j++)
+for (j = 0 ; str[j] != '\0' ; j++)
 	dest[j] = str[i];
 
 return (dest);
