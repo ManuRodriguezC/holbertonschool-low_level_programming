@@ -10,7 +10,7 @@
 char *_strdup(char *str)
 {
 char *dest = NULL;
-int i, j:
+int i, j;
 
 for (i = 0 ; str[i] != '\0' ; i++)
 
