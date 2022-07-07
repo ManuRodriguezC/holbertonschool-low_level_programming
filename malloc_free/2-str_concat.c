@@ -18,7 +18,7 @@ if (s1 == NULL)
 if (s2 == NULL)
 	s2 = "";
 
-unsigned int len = strlen(s1) + strlen(s2);
+int len = strlen(s1) + strlen(s2);
 
 s3 = malloc(sizeof(*s3) * len + 1);
 
