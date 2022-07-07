@@ -13,6 +13,9 @@ char *dest = NULL;
 unsigned int j;
 int len = 0;
 
+if (str == NULL)
+	str = "";
+
 len = strlen(str);
 
 dest = malloc(sizeof(char) * len + 1);
@@ -26,5 +29,6 @@ for (j = 0 ; str[j] != '\0' ; j++)
 dest[j + 1] = '\0';
 
 return (dest);
+
 free(dest);
 }
