@@ -16,7 +16,7 @@ int j = 0;
 int sum = 0;
 int tem = 0;
 
-for (i = 0 ; i < argc ; i ++)
+for (i = 1 ; i < argc ; i++)
 {
 	while (argv[i][j])
 	{
@@ -27,9 +27,9 @@ for (i = 0 ; i < argc ; i ++)
 		}
 		j++;
 	}
-		tem = atoi(argv[i]);
-		sum = tem + sum;
-	}
+	tem = atoi(argv[i]);
+	sum = tem + sum;
+}
 printf("%d\n", sum);
 return (0);
 }
