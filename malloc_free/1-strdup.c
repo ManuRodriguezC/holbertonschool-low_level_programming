@@ -13,11 +13,14 @@ char *dest = NULL;
 unsigned int j;
 int len = 0;
 
+if (str == NULL)
+	return (NULL);
+
 len = strlen(str);
 
 dest = malloc(sizeof(char) * len + 1);
 
-if (!dest || str == 0)
+if (!dest)
 	return (NULL);
 
 for (j = 0 ; str[j] != '\0' ; j++)
