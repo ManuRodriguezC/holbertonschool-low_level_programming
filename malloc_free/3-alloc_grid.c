@@ -21,9 +21,9 @@ mat = malloc(sizeof(**mat) * width * height);
 if (!mat)
 	return (NULL);
 
-for (w = 0 ; i != width ; i++)
+for (i = 0 ; i != width ; i++)
 {
-	for(h = 0 ; j != height ; h++)
+	for(j = 0 ; j != height ; h++)
 		mat[i][j];
 }
 return (mat);
