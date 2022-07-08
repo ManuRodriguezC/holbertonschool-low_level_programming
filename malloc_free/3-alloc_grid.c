@@ -18,10 +18,7 @@ int lenh = 0;
 if (width <= 0 || height <= 0)
 	return (NULL);
 
-lenw = strlen(width);
-lenh = strlen(height);
-
-mat = malloc(sizeof(*mat) * lenh * lenw)
+mat = malloc(sizeof(*mat) * width * height)
 
 if (!mat)
 	return (NULL);
