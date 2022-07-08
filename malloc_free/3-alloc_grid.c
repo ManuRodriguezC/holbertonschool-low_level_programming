@@ -12,8 +12,6 @@ int **alloc_grid(int width, int height)
 {
 char *mat = NULL;
 unsigned int w, h;
-int lenw = 0;
-int lenh = 0;
 
 if (width <= 0 || height <= 0)
 	return (NULL);
@@ -25,7 +23,7 @@ if (!mat)
 
 for (w = 0 ; w != width ; w++)
 {
-	for(h = 0 ; height[h] < height ; h++)
+	for(h = 0 ; h < height ; h++)
 		mat[w] = width[w]height[h];
 }
 return (mat);
