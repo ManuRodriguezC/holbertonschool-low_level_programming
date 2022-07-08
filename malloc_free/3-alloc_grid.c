@@ -24,7 +24,7 @@ if (!mat)
 for (w = 0 ; w != width ; w++)
 {
 	for(h = 0 ; h < height ; h++)
-		mat[w] = width[w]height[h];
+		mat[w][h] = width[w]height[h];
 }
 return (mat);
 free(mat);
