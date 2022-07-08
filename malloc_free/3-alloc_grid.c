@@ -16,7 +16,7 @@ int i, j;
 if (width <= 0 || height <= 0)
 	return (NULL);
 
-mat = malloc(sizeof(int *) * (width - 3) * (height - 3));
+mat = malloc(sizeof(int *) * (height * height));
 if (!mat)
 	return (NULL);
 
