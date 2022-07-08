@@ -25,7 +25,7 @@ if (!mat)
 
 for (w = 0 ; w != width ; w++)
 {
-	for(h = 0 ; height[h] < height ; j++)
+	for(h = 0 ; height[h] < height ; h++)
 		mat[w] = width[w]height[h];
 }
 return (mat);
