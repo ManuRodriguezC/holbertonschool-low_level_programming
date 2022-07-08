@@ -17,10 +17,7 @@ len = strlen(str);
 
 dest = malloc(sizeof(char) * len + 1);
 
-if (!dest)
-	return (NULL);
-
-if (str == NULL)
+if (!dest || str == NULL)
 	return (NULL);
 
 for (j = 0 ; str[j] != '\0' ; j++)
