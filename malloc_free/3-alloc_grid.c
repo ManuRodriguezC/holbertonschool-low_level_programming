@@ -26,12 +26,11 @@ mat = malloc(sizeof(*mat) * lenh * lenw)
 if (!mat)
 	return (NULL);
 
-for (w = 0 ; width[w] < width ;)
+for (w = 0 ; w != width ; w++)
+{
 	for(h = 0 ; height[h] < height ; j++)
-		mat[w] = width[w];
-mat[w] = height[w][h];
-w++;
-
+		mat[w] = width[w]height[h];
+}
 return (mat);
 free(mat);
 }
