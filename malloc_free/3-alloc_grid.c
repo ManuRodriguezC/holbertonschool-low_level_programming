@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * **allac_agrid - dimensional array
+ * **alloc_grid - dimensional array
  *@width: an
  *@height: al
  *Return: mat
