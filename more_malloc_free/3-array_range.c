@@ -2,9 +2,10 @@
 #include <stdlib.h>
 
 /**
- *
- *
- *
+ * *array_range - array integree
+ *@min: values min
+ *@max: values max
+ *Return: list
  */
 int *array_range(int min, int max)
 {
