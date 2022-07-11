@@ -4,9 +4,12 @@
 
 int main(void)
 {
-int SIZE = 1024, s;
-s = SIZE + 98;
-printf("%i", s);
+int SIZE = 1024;
+
+int s = SIZE + 98;
+
+printf("%i\n", s);
+
 return (0);
 
 }
