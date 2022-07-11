@@ -1,4 +1,4 @@
-#ifndef SUM_H
-#define SUM_H(x, y)  (x + y)
+#ifndef SUM
+#define SUM(x, y)  (x + y)
 
-#endif /* SUM_H */
+#endif /* SUM */
