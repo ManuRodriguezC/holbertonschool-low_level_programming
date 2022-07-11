@@ -5,7 +5,8 @@
  *
  *
  */
-void main(void)
+int main(void)
 {
 printf("02-main.c");
+return (0);
 }
