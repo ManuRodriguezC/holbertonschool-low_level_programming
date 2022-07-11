@@ -21,7 +21,7 @@ if (list == NULL)
 	return (NULL);
 
 for (i = 0 ; i <= len ; i++)
-	list[i] = min++
+	list[i] = min++;
 
 return (list);
 }
