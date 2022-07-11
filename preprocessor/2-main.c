@@ -3,10 +3,10 @@
 /**
  *main - funcion print file
  *
- *
+ *Return: 0
  */
 int main(void)
 {
-printf("02-main.c");
+printf("2-main.c");
 return (0);
 }
