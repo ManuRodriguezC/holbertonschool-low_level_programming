@@ -1,5 +1,6 @@
-#ifndef SIZE_1024
-#define SIZE_1024
+#ifndef SIZE
+#define SIZE
 
+1024;
 
 #endif
