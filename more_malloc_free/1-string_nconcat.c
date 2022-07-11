@@ -23,6 +23,8 @@ len2 = strlen(s2);
 
 if (len2 <= n)
 	n = len2;
+if (n <= 0)
+	s2 = "";
 
 len1 = len1 + n;
 
@@ -33,7 +35,7 @@ if (!s3)
 
 for (i = 0 ; s1[i] != '\0' ; i++)
 	s3[i] = s1[i];
-for (j = 0 ; s2[j] != '\0' ; j++)
+for (j = 0 ; s2[j] != '\0' && i < len1 ; i++, j++)
 	s3[i] = s2[j];
 s3[i] = '\0';
 
