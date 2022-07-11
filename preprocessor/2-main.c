@@ -7,9 +7,5 @@
  */
 void main(void)
 {
-char file;
-file = "2-main.c";
-
-printf("%c", file);
-
+printf("02-main.c");
 }
