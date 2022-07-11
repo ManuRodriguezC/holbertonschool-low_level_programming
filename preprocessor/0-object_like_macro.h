@@ -3,7 +3,7 @@
 
 int main(void)
 {
-size = 1024;
+SIZE = 1024;
 
 printf("%d\n");
 
