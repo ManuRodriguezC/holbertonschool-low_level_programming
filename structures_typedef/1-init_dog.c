@@ -9,13 +9,6 @@
  *@owner: owner
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
-struct dog
 {
-	char *name;
-	float age;
-	char *owner;
-}
-int main(void)
-{
-struct dog = { "", 0, ""};
+struct dog = {}
 }
