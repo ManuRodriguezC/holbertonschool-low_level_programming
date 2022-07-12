@@ -14,9 +14,9 @@ if (d->name == NULL)
 	printf("(nail)");
 printf("Name: %s", d->name);
 printf("Age: %f", d->age);
-printf("Owner: %c", d->owner);
+printf("Owner: %s", d->owner);
 }
-if (*d == NULL)
+if (d == NULL)
 	printf("nil");
 
 }
