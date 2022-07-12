@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- *is_primo_number - function
+ *is_prime_number - function
  *@n: integrer
  *@a: primo
  *Return: number primo
