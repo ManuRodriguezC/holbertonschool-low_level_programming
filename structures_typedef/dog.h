@@ -3,9 +3,9 @@
 
 /**
  *struct dog - dog dates
- *@*name: pointer of name
+ *@name: pointer of name
  *@age: age of the dog
- *@*owner: owner
+ *@owner: owner
  */
 struct dog
 {
