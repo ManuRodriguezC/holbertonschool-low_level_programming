@@ -4,12 +4,11 @@
 #include <stdlib.h>
 
 /**
- *dog_t *new_dog - new dog
- *@*new_dog: new
- *@name: dog name
- *@age: dog age
- *@owner: owner
- *Return: d
+ *
+ *
+ *
+ *
+ *
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
