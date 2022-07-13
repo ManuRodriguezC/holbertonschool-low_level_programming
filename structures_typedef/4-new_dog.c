@@ -5,7 +5,7 @@
 
 /**
  *dog_t *new_dog - new dog
- * *new_dog: new
+ *@new_dog: new
  *@name: dog name
  *@age: dog age
  *@owner: owner
