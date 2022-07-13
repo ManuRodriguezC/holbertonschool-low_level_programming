@@ -33,4 +33,5 @@ if (!dog_t)
 	free(new_name);
 	free(new_owner);
 }
+return (new_dog);
 }
