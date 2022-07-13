@@ -5,7 +5,7 @@
 /**
  *free_dog - free new_dog
  *@dog_t *d: function
- *
+ *@d: d
  */
 void free_dog(dog_t *d)
 {
