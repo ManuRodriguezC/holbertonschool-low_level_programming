@@ -20,6 +20,6 @@ new_owner = malloc(sizeof(*new_owner) * strlen(owner) + 1);
 if (!new_name || !new_owner)
 	return (NULL);
 
-strcpy(new_name, name);
-strcpy(new_owner, owner);
+strcpy(new_name, d->name);
+strcpy(new_owner, d->owner);
 }
