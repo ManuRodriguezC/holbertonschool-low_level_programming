@@ -33,5 +33,11 @@ if (!dog_t)
 	free(new_name);
 	free(new_owner);
 }
-return (*new_dog);
+struct dog_t
+{
+char *name;
+char *owner;
+float age;
+};
+return (new_dog);
 }
