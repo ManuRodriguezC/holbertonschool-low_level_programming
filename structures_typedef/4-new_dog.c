@@ -6,9 +6,10 @@
 /**
  *dog_t *new_dog - new dog
  *@new_dog: dates a new dog
- *
- *
- *
+ *@name: name
+ *@age: age
+ *@owner: owner
+ *Return: d
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
