@@ -5,7 +5,7 @@
  *print_name - name
  *@name: name
  *@(*f)(char *): function
- *
+ *@f: funcion
  */
 void print_name(char *name, void (*f)(char *))
 {
