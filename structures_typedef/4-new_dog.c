@@ -35,9 +35,9 @@ if (!dog_t)
 }
 struct dog_t
 {
-char *new_name;
-char *new_owner;
-float age;
+dog_t->name = new_name;
+dog_t->age = age;
+dog_t->owner = new_owner;
 };
 return (new_dog);
 }
