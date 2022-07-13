@@ -33,8 +33,10 @@ if (!d)
 	free(new_name);
 	free(new_owner);
 }
+{
 d->name = new_name;
 d->age = age;
 d->owner = new_owner;
+}
 return (dog_t);
 }
