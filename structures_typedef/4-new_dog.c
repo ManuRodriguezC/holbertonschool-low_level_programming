@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- *
+ *dog_t *new_dog - new dog
  *
  *
  *
