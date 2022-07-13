@@ -4,7 +4,7 @@
 #include <stdlib.h>
 
 /**
- *dog_t *new_dog - new dog
+ *dog_t - new dog
  *new_dog: new
  *@name: dog name
  *@age: dog age
