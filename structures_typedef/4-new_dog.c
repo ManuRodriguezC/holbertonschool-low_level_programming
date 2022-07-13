@@ -36,5 +36,5 @@ if (!d)
 d->name = new_name;
 d->age = age;
 d->owner = new_owner;
-return (new_dog);
+return (dot_t);
 }
