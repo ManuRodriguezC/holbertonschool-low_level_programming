@@ -16,10 +16,12 @@ dog_t *new_dog(char *name, float age, char *owner)
 	char *new_owner = NULL;
 	struct dog *d;
 
-	new_name = malloc(sizeof(*new_name) * strlen(name) + 1);
-	new_owner = malloc(sizeof(*new_owner) * strlen(owner) + 1);
+	new_name = malloc(sizeof(char) * strlen(name) + 1);
+	new_owner = malloc(sizeof(char) * strlen(owner) + 1);
 
-	if (new_name || new_owner == NULL)
+	if (new_name == NULL)
+		return (NULL);
+	if (new_owner == NULL)
 		return (NULL);
 
 	strcpy(new_name, name);
