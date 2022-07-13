@@ -18,7 +18,7 @@ struct dog *d = NULL;
 new_name = malloc(sizeof(*new_name) * strlen(name) + 1);
 new_owner = malloc(sizeof(*new_owner) * strlen(owner) + 1);
 
-if (!new_name || !new_owner)
+if (new_name || new_owner == NULL)
 	return (NULL);
 
 strcpy(new_name, name);
@@ -26,17 +26,17 @@ strcpy(new_owner, owner);
 
 d = malloc(sizeof(struct dog));
 
-if (!d)
+if (d == NULL)
 {
-	return (NULL);
 	free(d);
 	free(new_name);
 	free(new_owner);
+	return (NULL);
 }
-{
+
 d->name = new_name;
 d->age = age;
 d->owner = new_owner;
-}
-return (dog_t);
+
+return ();
 }
