@@ -12,7 +12,7 @@ size_t i;
 void (*fp)(int);
 fp = action;
 
-for (i = 0; array[i] < size; i++)
+for (i = 0; i < size; i++)
 
 (*fp)(array[i]);
 }
