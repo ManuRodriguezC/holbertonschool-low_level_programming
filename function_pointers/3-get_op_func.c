@@ -8,14 +8,7 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
-char funciones = "+,-,/,*,%";
-char +, -, *, /, %;
-+= *op_add;
--= *op_sub;
-/= *op_div;
-*= *op_mul;
-%= *op_mod;
-
+char funciones = "+-/*%";
 if (s == funciones)
 	return (s);
 }
