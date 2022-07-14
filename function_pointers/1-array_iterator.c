@@ -9,6 +9,5 @@
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
 void (*action)(int);
-action = array;
-(*array)(size);
+(*action)(array[size]);
 }
