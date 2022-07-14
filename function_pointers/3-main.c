@@ -3,3 +3,6 @@
 #include <stdlib.h>
 
 int main()
+{
+printf("%i", ops[i].f);
+}
