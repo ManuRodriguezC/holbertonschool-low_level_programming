@@ -56,7 +56,6 @@ int op_div(int a, int b)
 	div = a / b;
 	return (div);
 }
-
 /**
  *op_mod - remainder of the division of a and b
  *@a: firts number
