@@ -14,5 +14,5 @@ fp = f;
 (*fp)(name);
 
 if (fp == NULL)
-	return (NULL);
+	return ();
 }
