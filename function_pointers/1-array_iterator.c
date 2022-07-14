@@ -3,6 +3,7 @@
 
 /**
  *array_iterator - array
+ *@array:array
  *@size: zise of the array
  *@action: funcion
  */
