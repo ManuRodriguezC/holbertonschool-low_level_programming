@@ -14,10 +14,11 @@ int i;
 if (cmp && array)
 	
 for (i = 0; i < size; i++)
-
+{
 int (*fp)(int);
 fp = cmp;
 (*fp)(array[i]);
 if (array[i] == cmp)
 	return (0);
+}
 }
