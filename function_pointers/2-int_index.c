@@ -19,7 +19,7 @@ for (i = 0; i < size; i++)
 if (size <= 0)
 	return (-1);
 
-(*fp)(int);
+int (*fp)(int);
 fp = cmp;
 (*fp)(array[i]);
 }
