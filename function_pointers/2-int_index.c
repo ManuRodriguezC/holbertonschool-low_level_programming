@@ -21,7 +21,5 @@ if (size <= 0)
 
 int (*fp)(int);
 fp = cmp;
-(*fp)(array[i])
-
-
+(*fp)(array[i]);
 }
