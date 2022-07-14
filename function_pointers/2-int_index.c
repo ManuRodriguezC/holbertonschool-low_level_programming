@@ -15,8 +15,10 @@ if (!cmp && !array)
 	return (0);
 {
 int (*fp)(int);
+{
 fp = cmp;
 for (i = 0; i < size; i++)
 (*fp)(array[i]);
+}
 }
 }
