@@ -13,7 +13,7 @@ va_list ap;
 unsigned int i;
 int j;
 
-if (separator != NULL || n != 0)
+if (separator != NULL)
 {
 va_start(ap, n);
 
