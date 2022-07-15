@@ -20,7 +20,7 @@ b = atoi(argument_vector[2]);
 
 operation = get_op_func(op);
 
-TRHOW_ERROR(operation == NULL, ERROR_MESSAGE, EXIT_NULL_OPERATOR);
+THROW_ERROR(operation == NULL, ERROR_MESSAGE, EXIT_NULL_OPERATOR);
 
 result = operation(a, b);
 
