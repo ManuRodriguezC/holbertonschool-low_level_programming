@@ -12,12 +12,12 @@ int main(int argument_counter, char **argument_vector)
 	int result = 0, a = 0, b = 0;
 	char *op = NULL;
 
-	
+
 	THROW_ERROR(argument_counter != 4, ERROR_MESSAGE, EXIT_INVALID_ARG);
 
 	a = atoi(argument_vector[1]);
 	op = argument_vector[2];
-	b = atoi(argument_vector[2]);
+	b = atoi(argument_vector[3]);
 
 	operation = get_op_func(op);
 
