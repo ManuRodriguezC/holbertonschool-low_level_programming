@@ -22,7 +22,7 @@ int i = 0;
 while (i < 5)
 {
 	if (strcmp(op_[i], s) == 0)
-		return (ops[i].f);
+		return (op_[i].f);
 	i++;
 	}
 	return (NULL);
