@@ -21,8 +21,8 @@ int i = 0;
 
 while (i < 5)
 {
-	if (strcmp(op_[i], s) == 0)
-		return (op_[i].f);
+	if (strcmp(ops[i], s) == 0)
+		return (ops[i].f);
 	i++;
 	}
 	return (NULL);
