@@ -13,9 +13,8 @@ va_list ap;
 unsigned int i;
 int j;
 
-if (separator == NULL)
-	return (0);
-
+if (separator != NULL)
+{
 va_start(ap, n);
 
 for (i = 1; i <= n; i++)
@@ -29,4 +28,5 @@ for (i = 1; i <= n; i++)
 }
 va_end(ap);
 printf("\n");
+}
 }
