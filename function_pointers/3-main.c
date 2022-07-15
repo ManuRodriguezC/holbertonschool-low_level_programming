@@ -8,23 +8,24 @@
  */
 int main(int argument_counter, char **argument_vector)
 {
-int (*operation)(int, int) = NULL;
-int result = 0, a = 0, b = 0;
-char *op = NULL;
+	int (*operation)(int, int) = NULL;
+	int result = 0, a = 0, b = 0;
+	char *op = NULL;
 
-THROW_ERROR(argument_counter != 4, ERROR_MESSAGE, EXIT_INVALID_ARG);
+	
+	THROW_ERROR(argument_counter != 4, ERROR_MESSAGE, EXIT_INVALID_ARG);
 
-a = atoi(argument_vector[1]);
-op = argument_vector[2];
-b = atoi(argument_vector[2]);
+	a = atoi(argument_vector[1]);
+	op = argument_vector[2];
+	b = atoi(argument_vector[2]);
 
-operation = get_op_func(op);
+	operation = get_op_func(op);
 
-THROW_ERROR(operation == NULL, ERROR_MESSAGE, EXIT_NULL_OPERATOR);
+	THROW_ERROR(operation == NULL, ERROR_MESSAGE, EXIT_NULL_OPERATOR);
 
-result = operation(a, b);
+	result = operation(a, b);
 
-printf(FORMAT_RESULT, result);
+	printf(FORMAT_RESULT, result);
 
-return (EXIT_SUCCESS);
+	return (EXIT_SUCCESS);
 }
