@@ -17,7 +17,7 @@ if (n == 0)
 
 va_start (ap, n);
 
-for (i = 0; i < n; i++)
+for (i = 1; i <= n; i++)
 	sum += va_arg (ap, const unsigned int);
 
 va_end(ap);
