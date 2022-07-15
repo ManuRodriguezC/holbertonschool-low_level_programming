@@ -6,21 +6,6 @@
  *@s: character
  *Return:s
  */
-int includes(char *string, char *substring)
-{
-		if (string == NULL || substring == NULL)
-				return (0);
-
-		if (*string == '\0')
-				return (1);
-
-		if (*string == *substring)
-				return (includes(string + 1, substring + 1));
-
-		return (0);
-}
-
-
 int (*get_op_func(char *s))(int, int)
 {
 
