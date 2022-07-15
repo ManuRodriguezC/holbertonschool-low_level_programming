@@ -37,13 +37,13 @@ int (*get_op_func(char *s))(int, int);
 /* macros functions */
 
 #define THROW_ERROR(CONDITIONAL, ERROR_TYPE, EXIT_CODE)
-do {
+do (
 	if (CONDITIONAL)
 	{
 		printf(ERROR_TYPE);
 		exit(EXIT_CODE);
 	}
-} while (0)
+) while (0)
 
 
 #endif /* _CALC_H*/
