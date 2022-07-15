@@ -13,11 +13,11 @@ int main(int argument_counter, char **argument_vector)
 	char *op = NULL;
 
 
-	THROW_ERROR(argument_counter != 3, ERROR_MESSAGE, EXIT_INVALID_ARG);
+	THROW_ERROR(argument_counter != 4, ERROR_MESSAGE, EXIT_INVALID_ARG);
 
-	a = atoi(argument_vector[0]);
-	op = argument_vector[1];
-	b = atoi(argument_vector[2]);
+	a = atoi(argument_vector[1]);
+	op = argument_vector[2];
+	b = atoi(argument_vector[3]);
 
 	operation = get_op_func(op);
 
