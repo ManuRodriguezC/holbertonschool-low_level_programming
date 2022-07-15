@@ -35,9 +35,8 @@ int (*get_op_func(char *s))(int, int);
 #define FORMAT_RESULT ("%d\n")
 
 /* macros functions */
-
-#define THROW_ERROR(CONDITIONAL, ERROR_TYPE, EXIT_CODE)
 {
+#define THROW_ERROR(CONDITIONAL, ERROR_TYPE, EXIT_CODE)
 do {
 	if (CONDITIONAL)
 	{
