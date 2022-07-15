@@ -12,7 +12,7 @@ int (*operation)(int, int) = NULL;
 int result = 0, a = 0, b = 0;
 char *op = NULL;
 
-THROW_ERROR(argument_counter != 4, ERROR_MASSAGE, EXIT_INVALID_ARG);
+THROW_ERROR(argument_counter != 4, ERROR_MESSAGE, EXIT_INVALID_ARG);
 
 a = atoi(argument_vector[1]);
 op = argument_vector[2];

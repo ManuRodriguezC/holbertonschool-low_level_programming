@@ -41,7 +41,7 @@ int op_mul(int a, int b)
  */
 int op_div(int a, int b)
 {
-	THROW_ERROR(b == 0, ERROR_MASSAGE, EXIT_BY_ZERO);
+	THROW_ERROR(b == 0, ERROR_MESSAGE, EXIT_BY_ZERO);
 	return (a / b);
 }
 /**
@@ -52,6 +52,6 @@ int op_div(int a, int b)
  */
 int op_mod(int a, int b)
 {
-	THROW_ERROR(b == 0, ERROR_MASSAGE, EXIT_BY_ZERO);
+	THROW_ERROR(b == 0, ERROR_MESSAGE, EXIT_BY_ZERO);
 	return (a % b);
 }
