@@ -43,7 +43,7 @@ int (*get_op_func(char *s))(int, int);
 		printf(ERROR_TYPE);
 		exit(EXIT_CODE);
 	}
-} while (0)
+} while (0))
 
 
 #endif /* _CALC_H*/
