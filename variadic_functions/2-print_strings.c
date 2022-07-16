@@ -24,7 +24,7 @@ for (i = 1; i <= n; i++)
         if (separator[j] == NULL)
 		printf("nil");
 	{
-        if (i < n && separator[j] != NULL)
+        if (i < n)
                 printf("%c", separator[j]);
         }
 }
