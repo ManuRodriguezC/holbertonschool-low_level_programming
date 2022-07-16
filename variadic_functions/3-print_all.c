@@ -16,7 +16,7 @@ int i, j;
 va_start(ap, format);
 while (format && format[i])
 	i++;
-while (format && formart[j])
+while (format && format[j])
 {
 	if (j == (i - 1))
 		space = "";
