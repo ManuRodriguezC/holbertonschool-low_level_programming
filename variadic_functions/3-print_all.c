@@ -27,7 +27,7 @@ while (format && format[j])
 		case 'c':
 			printf("%c%s", va_arg(ap, int), space);
 		break;
-	
+
 		case 'i':
 			printf("%d%s", va_arg(ap, int), space);
 		break;
