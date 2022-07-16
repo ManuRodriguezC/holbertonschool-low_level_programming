@@ -28,5 +28,7 @@ for (i = 1; i <= n; i++)
                 printf("%c", separator[j]);
         }
 }
+va_end(ap);
+printf("\n");
 }
 }
