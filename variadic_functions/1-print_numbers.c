@@ -28,4 +28,3 @@ for (i = 1; i <= n; i++)
 va_end(ap);
 printf("\n");
 }
-}
