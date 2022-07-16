@@ -19,12 +19,12 @@ va_start(ap, n);
 
 for (i = 1; i <= n; i++)
 {
-        printf("%d", va_arg(ap, int));
-        for (j = 0; separator[j] != '\0'; j++)
-        {
-        if (i < n)
-                printf("%c", separator[j]);
-        }
+	printf("%d", va_arg(ap, int));
+	for (j = 0; separator[j] != '\0'; j++)
+	{
+	if (i < n)
+	printf("%c", separator[j]);
+	}
 }
 va_end(ap);
 printf("\n");
