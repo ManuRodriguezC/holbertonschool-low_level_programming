@@ -12,6 +12,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 va_list ap;
 unsigned int i;
 char *ch;
+int j;
 
 if (separator != NULL)
 {
