@@ -22,7 +22,7 @@ while (format && format[j])
 	{
 		space = "";
 	}
-	switch (format[i])
+	switch (format[j])
 	{
 		case 'c':
 			printf("%c%s", va_arg(ap, int), space);
