@@ -19,7 +19,7 @@ va_start(ap, n);
 
 for (i = 1; i <= n; i++)
 {
-        printf("%d", va_arg(ap, char));
+        printf("%d", va_arg(ap, int));
         for (j = 0; separator[j] != '\0'; j++)
         {
         if (i < n)
