@@ -21,7 +21,7 @@ for (i = 1; i <= n; i++)
 {
         printf("%c", va_arg(ap, int));
         for (j = 0; separator[j] != '\0'; j++)
-        if (separator[j] == NULL)
+        if (separator == NULL)
 		printf("nil");
 	{
         if (i < n)
