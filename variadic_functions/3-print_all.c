@@ -25,20 +25,20 @@ while (format && format[j])
 	switch (format[j])
 	{
 		case 'c':
-			printf("%c%s", va_arg(ap, int), space);
-			break;
+		printf("%c%s", va_arg(ap, int), space);
+		break;
 		case 'i':
-			printf("%d%s", va_arg(ap, int), space);
-			break;
+		printf("%d%s", va_arg(ap, int), space);
+		break;
 		case 'f':
-			printf("%f%s", va_arg(ap, double), space);
-			break;
+		printf("%f%s", va_arg(ap, double), space);
+		break;
 		case 's':
-			ch = va_arg(ap, char *);
-			if (ch == NULL)
-				ch = "(nil)";
-			printf("%s%s", ch, space);
-			break;
+		ch = va_arg(ap, char *);
+		if (ch == NULL)
+			ch = "(nil)";
+		printf("%s%s", ch, space);
+		break;
 	}
 i++;
 }
