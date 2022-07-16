@@ -19,7 +19,9 @@ while (format && format[i])
 while (format && format[j])
 {
 	if (j == (i - 1))
+	{
 		space = "";
+	}
 	switch (format[j])
 	{
 		case 'c':
