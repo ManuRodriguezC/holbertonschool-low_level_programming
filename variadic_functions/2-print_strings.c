@@ -19,11 +19,9 @@ va_start(ap, n);
 
 for (i = 1; i <= n; i++)
 {
-        printf("%s", va_arg(ap, int));
+        printf("%s", va_arg(ap));
         for (j = 0; separator[j] != '\0'; j++)
-        if (separator == NULL)
-		printf("nil");
-	{
+        {
         if (i < n)
                 printf("%c", separator[j]);
         }
