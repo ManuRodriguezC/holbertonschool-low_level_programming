@@ -14,8 +14,6 @@ unsigned int i;
 char *ch;
 int j;
 
-if (separator != NULL)
-{
 va_start(ap, n);
 
 for (i = 1; i <= n; i++)
@@ -24,13 +22,13 @@ for (i = 1; i <= n; i++)
 	if (!ch)
 		ch = "(nil)";
 	printf("%s", ch);
-	for (j = 0; separator[j] != '\0'; j++)
-	{
-	if (i < n)
-	printf("%c", separator[j]);
-	}
+	if (separator != NULL)
+		for (j = 0; separator[j] != '\0'; j++)
+		{
+		if (i < n)
+			printf("%c", separator[j]);
+		}
 }
 va_end(ap);
 printf("\n");
-}
 }
