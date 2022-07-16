@@ -36,7 +36,7 @@ while (format && format[j])
 		case 's':
 			ch = va_arg(ap, char *);
 			if (ch == NULL)
-			ch = "(nil)";
+				ch = "(nil)";
 			printf("%s%s", ch, space);
 			break;
 	}
