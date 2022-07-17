@@ -10,13 +10,13 @@ $(NAME): $(OBJ)
 
 all: $(NAME)
 
-clear: 
+clean: 
 	$(RM) *~ $(NAME)
 
-0clear:
+0clean:
 	$(RM) $(OBJ)
 
-fclear: 
+fclean: 
 	$(RM) $(OBJ) *~ $(NAME)
 
 re:
