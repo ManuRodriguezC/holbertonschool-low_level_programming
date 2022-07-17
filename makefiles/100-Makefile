@@ -10,7 +10,7 @@ school: $(OBJ) m.h
 
 all: $(NAME)
 
-clean: 
+clean: m.h
 	$(RM) *~ $(NAME)
 
 oclean: 
