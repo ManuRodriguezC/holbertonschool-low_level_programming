@@ -1,4 +1,3 @@
 school:
 	
-all:
-	school
+all: school
