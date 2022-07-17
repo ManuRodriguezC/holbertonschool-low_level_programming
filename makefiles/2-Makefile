@@ -7,4 +7,4 @@ school: $(SRC)
 	$(CC) $(SRC) -o $(NAME)
 
 all: $(OBJ)
-	$(CC) $(OBJ) - o $(NAME)
+	$(CC) $(OBJ) -o $(NAME)
