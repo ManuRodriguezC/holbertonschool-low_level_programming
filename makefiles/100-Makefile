@@ -13,7 +13,7 @@ all: $(NAME)
 clean: m.h
 	$(RM) *~ $(NAME)
 
-oclean: m.h  oclena.c
+oclean: m.h
 	$(RM) $(OBJ)
 
 fclean: clean oclean
