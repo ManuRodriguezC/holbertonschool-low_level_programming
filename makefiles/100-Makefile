@@ -11,7 +11,7 @@ school: $(OBJ) m.h
 all: $(NAME)
 
 clean: m.h
-	$(RM) *~ $(NAME)
+	$(RM) *~ $(NAME) clean
 
 oclean: m.h 
 	$(RM) $(OBJ)
