@@ -8,8 +8,7 @@ RM = rm -f
 school: $(SRC)
 	$(CC) $(SRC) -o $(NAME)
 
-all: $(OBJ)
-	$(CC) $(OBJ) -o $@
+all: $(NAME)
 
 clean: $(RM) $(SRC) $(NAME)
 
