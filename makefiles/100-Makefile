@@ -16,9 +16,7 @@ clean: m.h
 oclean: m.h 
 	$(RM) $(OBJ)
 
-fclean:
-	oclean clean
-
+fclean: clean oclean
 re:
 
 
