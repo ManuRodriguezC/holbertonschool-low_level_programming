@@ -5,7 +5,7 @@ NAME = school
 RM = rm -f
 
 
-school: $(OBJ)
+%(NAME): $(OBJ)
 	$(CC) $(OBJ) -o $@
 
 all: $(NAME)
