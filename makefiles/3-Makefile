@@ -10,11 +10,14 @@ $(NAME): $(OBJ)
 
 all: $(NAME)
 
-clean: $(RM) *~ $(NAME)
+clean: 
+	$(RM) *~$(NAME)
 
-oclean: $(RM) $(OBJ)
+oclean: 
+	$(RM) $(OBJ)
 
-fclean: $(RM) $(SRC) $(OBJ) $(NAME)
+fclean: 
+	$(RM) $(SRC) $(OBJ) $(NAME)
 
 re: 
 
