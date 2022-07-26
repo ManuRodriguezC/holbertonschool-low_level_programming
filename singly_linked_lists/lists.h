@@ -17,11 +17,11 @@
  *Description: Singly linked list node structure
  */
 
-struct list
+struct list_s
 {
 	char *str;
 	unsigned int count;
-	struct _list *next;
+	struct list_s *next;
 } list_t;
 
 
