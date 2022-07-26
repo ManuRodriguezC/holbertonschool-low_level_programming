@@ -10,7 +10,7 @@
 /* Structures */
 
 /**
- *struct list - Singly linked list
+ *struct list_s - Singly linked list
  *@str: String present in the nodo
  *@count: Length od the string
  *@next: Pointer to the next node
