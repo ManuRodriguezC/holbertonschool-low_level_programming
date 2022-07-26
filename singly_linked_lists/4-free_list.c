@@ -2,7 +2,7 @@
 
 /**
  *free_list - Free memory of the linked
- *head_ The beginning of the list_t
+ *@head: The beginning of the list_t
  */
 void free_list(list_t *head)
 {
