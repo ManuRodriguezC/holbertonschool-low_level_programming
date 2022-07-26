@@ -31,10 +31,8 @@ if (temp == NULL)
 else
 {
 while (temp->next != NULL)
-{
-	temp = temp->next;
-	temp->next = new;
-}
+temp = temp->next;
+temp->next = new;
 }
 return (*head);
 }
