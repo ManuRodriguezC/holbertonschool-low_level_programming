@@ -9,6 +9,12 @@
 
 /* Structure */
 
+/**
+ *struct listint_s - Singly linked list
+ *@n: number present in the nodo
+ *@next: Pointer to next nodo
+ *Description: Singly linked list nodo structure
+ */
 typedef struct listint_s
 {
 	int n;
