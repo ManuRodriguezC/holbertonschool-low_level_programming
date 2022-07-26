@@ -17,7 +17,7 @@ if (new == NULL)
 	return (NULL);
 
 new->n = n;
-next->next = *head;
+new->next = *head;
 *head = new;
 return (*head);
 }
