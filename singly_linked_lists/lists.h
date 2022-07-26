@@ -7,6 +7,24 @@
 #include <stdlib.h>
 #include <string.h>
 
+/* Structures */
+
+/**
+ *struct list - Singly linked list
+ *@str: String present in the nodo
+ *@count: Length od the string
+ *@next: Pointer to the next node
+ *Description: Singly linked list node structure
+ */
+
+struct list
+{
+	char *str;
+	unsigned int count;
+	struct _list *next;
+} list_t;
+
+
 /* Prototypes */
 
 size_t print_list(const list_t *h);
