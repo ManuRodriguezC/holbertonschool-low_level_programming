@@ -3,7 +3,7 @@
 /**
  *print_list - Prints all the elementes od te list_t list
  *@h: Singly linked list
- *Return: Len: Number of elements in the list
+ *Return: count: Number of elements in the list
  */
 size_t print_list(const list_t *h)
 {
