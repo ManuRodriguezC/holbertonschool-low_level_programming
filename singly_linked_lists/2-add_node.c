@@ -19,10 +19,8 @@ if (new == NULL)
 new->str = strdup(str);
 
 for (count = 0; str[count]; count++)
-{
 	new->len = count;
 	new->next = *head;
 	*head = new;
 	return (*head);
-}
 }
