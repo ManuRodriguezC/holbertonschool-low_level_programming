@@ -1,5 +1,5 @@
-#ifndef LISTS_H
-#define LISTS_H
+#ifndef _LISTS_
+#define _LISTS_
 
 /* Librarys */
 
@@ -17,7 +17,7 @@
  *Description: Singly linked list node structure
  */
 
-struct list_s
+typedef struct list_s
 {
 	char *str;
 	unsigned int count;
