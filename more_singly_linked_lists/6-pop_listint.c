@@ -12,7 +12,7 @@ int n = 0;
 
 if (*head != NULL)
 {
-new = (*head)->n;
+new = (*head)->next;
 n = (*head)->n;
 free(*head);
 *head = new;
