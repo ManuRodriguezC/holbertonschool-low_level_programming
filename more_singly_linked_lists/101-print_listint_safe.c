@@ -8,15 +8,22 @@
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t count = 0;
+	const listint_t *hare;
+	const listint_t *tortoise;
 
-	if (head == NULL)
-		printf("[%p] %i\n", &head, 98);
+	tortoise = head;
 
-	while (head != NULL)
+	while (tortoise != NULL)
 	{
-		printf("[%p] %i\n", &head, head->n);
-		head = head->next;
+		hare = tortoise;
+		printf("[%p] %i\n", (void *)tortoise, tortoise->n);
+		tortoise = tortoise->next;
 		count++;
+		if (hare < tortoise)
+		{
+			printf("-> [%p] %i\n", (void *)tortoise, tortoise->n);
+			break;
+		}
 	}
 return (count);
 }
