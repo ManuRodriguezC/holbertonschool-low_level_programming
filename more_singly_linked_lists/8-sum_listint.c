@@ -11,7 +11,7 @@ int sum = 0;
 
 if (head == NULL)
 	return (0);
-else
+else (head != NULL)
 {
 sum += head->n;
 head = head->next;
