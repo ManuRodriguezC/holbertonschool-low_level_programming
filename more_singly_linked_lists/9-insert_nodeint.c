@@ -21,7 +21,7 @@ if (idx != 0)
 		temp = temp->next;
 	}
 }
-if (h == NULL && idx != 0)
+if (temp == NULL && idx != 0)
 	return (NULL);
 
 new = malloc(sizeof(listint_t));
