@@ -16,7 +16,7 @@ listint_t *temp = *head;
 
 if (idx != 0)
 {
-	for (i = 0; i < idx && temp != NULL; i++)
+	for (i = 1; i < idx && temp != NULL; i++)
 	{
 		temp = temp->next;
 	}
