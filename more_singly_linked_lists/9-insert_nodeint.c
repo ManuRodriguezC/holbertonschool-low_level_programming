@@ -15,14 +15,19 @@ listint_t *new;
 listint_t *temp = *head;
 
 if (idx != 0)
+{
 	for (i = 0; i < idx && temp != NULL; i++)
+	{
 		temp = temp->next;
+	}
+}
+if (h == NULL && idx != 0)
+	return (NULL);
 
 new = malloc(sizeof(listint_t));
 
-if (new == NULL || temp == NULL && idx != 0)
+if (new == NULL)
 	return (NULL);
-
 new->n = n;
 
 if (idx == 0)
