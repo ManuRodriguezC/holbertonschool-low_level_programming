@@ -18,7 +18,7 @@ if (index != 0)
 {
 for (position = 1; position < index && dele != NULL; position++)
 {
-dele = dele->next,
+dele = dele->next;
 }
 }
 if (dele == NULL || (dele->next == NULL && index != 0))
