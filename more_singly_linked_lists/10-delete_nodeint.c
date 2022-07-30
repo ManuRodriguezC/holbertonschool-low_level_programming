@@ -16,7 +16,7 @@ dele = *head;
 
 if (index != 0)
 {
-for (pisition = 1; pisition < index && dele != NULL; pisition++)
+for (position = 1; position < index && dele != NULL; position++)
 {
 dele = dele->next,
 }
