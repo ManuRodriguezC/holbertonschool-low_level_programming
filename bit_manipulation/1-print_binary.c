@@ -10,7 +10,7 @@ void print_binary(unsigned long int n)
 char cadena[63];
 int i;
 
-itao(n, cadena, 2);
+itoa(n, cadena, 2);
 
 for (i = 0; cadena[i] != '\0'; i++)
 	_putchar(i);
