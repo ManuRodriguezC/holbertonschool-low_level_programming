@@ -2,7 +2,7 @@
 
 /**
  *print_binary - Convert decimal to binaty
- *n: is a decimal number
+ *@n: is a decimal number
  *
  */
 void print_binary(unsigned long int n)
