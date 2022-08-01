@@ -7,11 +7,7 @@
  */
 void print_binary(unsigned long int n)
 {
-char cadena[63];
-int i;
-
-itoa(n, cadena, 2);
-
-for (i = 0; cadena[i] != '\0'; i++)
-	_putchar(i);
+if (n > 1)
+	print_binary(n >> 1);
+_putchar((n & 1) + '0');
 }
