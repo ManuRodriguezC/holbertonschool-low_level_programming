@@ -21,6 +21,8 @@ if (!filename)
 	return (0);
 
 fd = open(filename, O_RDONLY, 0600);
+if (fd == -1)
+	return (0);
 
 readfd = read(fd, buf, letters);
 write(STDOUT_FILENO, buf, readfd);
