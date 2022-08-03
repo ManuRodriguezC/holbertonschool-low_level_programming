@@ -14,10 +14,10 @@ char *buf;
 
 buf = malloc(sizeof(size_t) * letters);
 
-if (!buf)
+if (buf == NULL)
 	return (0);
 
-if (!filename)
+if (filename == NULL)
 	return (0);
 
 fd = open(filename, O_RDONLY, 0600);
