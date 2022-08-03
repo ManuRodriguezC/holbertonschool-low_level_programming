@@ -20,7 +20,7 @@ if (buf == NULL)
 if (filename == NULL)
 	return (0);
 
-fd = open(filename, O_RDONLY, 0600);
+fd = open(filename, O_RDONLY, 0400);
 if (fd == -1)
 	return (0);
 
