@@ -34,12 +34,12 @@ int main(int argc, char *argv[])
 	close(fd_write);
 	if (fd_read)
 	{
-		dprintf(STDERR_FILENO"Error: Can't close %d\n", fd_read);
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read);
 		exit(100);
 	}
 	if (fd_write)
 	{
-		dprintf(STDERR_FILENO"Error: Can't close %d\n", fd_write);
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write);
 		exit(100);
 	}
 	return(0);
