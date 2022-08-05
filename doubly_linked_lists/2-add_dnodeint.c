@@ -12,7 +12,7 @@ dlistint_t *new;
 
 new = *head;
 
-new = malloc(sizeof(dlistini_t));
+new = malloc(sizeof(dlistint_t));
 
 if (new == NULL)
 	return (NULL);
