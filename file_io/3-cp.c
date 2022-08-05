@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int fd_read, fd_write, wr, rd, clrd, clwr;
+	int fd_read, fd_write, rd, clrd, clwr;
 	char *buf[1024];
 
 	if (argc != 3)
