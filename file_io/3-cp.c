@@ -17,16 +17,16 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 	fd_read = open(argv[1], O_RDONLY);
-	if (!fd_read)
+	if (fd_read == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	fd_write = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 
-	while (!(rd = read(fd_read, buf, 1024)))
+	while ((rd = read(fd_read, buf, 1024)) == -1)
 	{
-	if (!fd_write || !(wr = write(fd_write, buf, rd)))
+	if (fd_write == -1 || (wr = write(fd_write, buf, rd)) == -1) 
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		close(fd_read);
@@ -35,12 +35,12 @@ int main(int argc, char *argv[])
 	}
 	clrd = close(fd_read);
 	clwr = close(fd_write);
-	if (clrd)
+	if (clrd == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clrd);
 		exit(100);
 	}
-	if (clwr)
+	if (clwr == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clwr);
 		exit(100);
