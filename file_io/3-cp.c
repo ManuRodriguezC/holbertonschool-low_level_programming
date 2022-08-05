@@ -38,11 +38,11 @@ int main(int argc, char *argv[])
 	}
 	clrd = close(fd_read);
 	clwr = close(fd_write);
-	if (clrd == -1)
+	if (clrd < 0)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read), exit(100);
 	}
-	if (clwr == -1)
+	if (clwr < 0)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write), exit(100);
 	}
