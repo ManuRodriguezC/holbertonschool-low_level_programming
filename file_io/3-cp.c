@@ -17,14 +17,14 @@ int main(int argc, char *argv[])
 		exit(97);
 	}
 	fd_read = open(argv[1], O_RDONLY);
-	rd = read(fd_read, buf, 1024); 
+	rd = read(fd_read, buf, 1024);
 	if (!fd_read)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
 		exit(98);
 	}
 	fd_write = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	wr = write(fd_write, buf, rd); 
+	wr = write(fd_write, buf, rd);
 	if (!fd_write || !wr)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
@@ -42,5 +42,5 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write);
 		exit(100);
 	}
-	return(0);
+	return (0);
 }
