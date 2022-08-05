@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int fd_read, fd_write, wr, rd;
+	int fd_read, fd_write, wr, rd, clrd, clwr;
 	char *buf[1024];
 
 	if (argc != 3)
@@ -30,16 +30,16 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		exit(99);
 	}
-	close(fd_read);
-	close(fd_write);
+	clrd = close(fd_read);
+	clwr = close(fd_write);
 	if (fd_read)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read);
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clrd);
 		exit(100);
 	}
 	if (fd_write)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write);
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clwr);
 		exit(100);
 	}
 	return (0);
