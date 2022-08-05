@@ -40,15 +40,13 @@ int main(int argc, char *argv[])
 	}
 	clrd = close(fd_read);
 	clwr = close(fd_write);
+	if (clrd == -1 || clwr == -1)
+	{
 	if (clrd == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clrd);
-		exit(100);
-	}
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clrd);	
 	if (clwr == -1)
-	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clwr);
-		exit(100);
+	exit(100);
 	}
 	return (0);
 }
