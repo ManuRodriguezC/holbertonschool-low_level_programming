@@ -28,22 +28,22 @@ int main(int argc, char *argv[])
 	{
 	if (fd_write == -1 || write(fd_write, buf, rd) != rd)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);, close(fd_read);, exit(99);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);,close(fd_read);,exit(99);
 	}
 	if (rd == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);, exit(98);
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);,exit(98);
 	}
 	}
 	clrd = close(fd_read);
 	clwr = close(fd_write);
 	if (clrd == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read);, exit(100);
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read);,exit(100);
 	}
 	if (clwr == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write);, exit(100);
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write);,exit(100);
 	}
 	return (0);
 }
