@@ -32,6 +32,7 @@ int main(int argc, char *argv[])
 		close(fd_read);
 		exit(99);
 	}
+	}
 	clrd = close(fd_read);
 	clwr = close(fd_write);
 	if (fd_read)
@@ -46,3 +47,4 @@ int main(int argc, char *argv[])
 	}
 	return (0);
 }
+
