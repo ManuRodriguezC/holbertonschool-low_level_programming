@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 	}
 	}
 	clrd = close(fd_read);
-	clwr = close(fd_write);{
+	clwr = close(fd_write);
 	if (clrd == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read);	
