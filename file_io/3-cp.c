@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	}
 	fd_write = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 
-	while ((rd = read(fd_read, buf, 1024)) > 0)
+	while ((rd = read(fd_read, buf, 1024)) != 0)
 	{
 	if (fd_write == -1 || write(fd_write, buf, rd) != rd)
 	{
