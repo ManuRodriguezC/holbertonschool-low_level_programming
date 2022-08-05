@@ -6,7 +6,7 @@
  *@argv: Argumens vector.
  *Return: 0 or success
  */
-int main(arvc, *argv[])
+int main(int arvc, char *argv[])
 {
 	int fd_read, fd_write, wr, rd;
 	char *buf[1024];
