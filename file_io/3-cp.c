@@ -24,13 +24,18 @@ int main(int argc, char *argv[])
 	}
 	fd_write = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, 0664);
 
-	while ((rd = read(fd_read, buf, 1024)) == -1)
+	while ((rd = read(fd_read, buf, 1024)) > 0)
 	{
-	if (fd_write == -1 || (wr = write(fd_write, buf, rd)) == -1) 
+	if (fd_write == -1 || write(fd_write, buf, rd) != rd) 
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		close(fd_read);
 		exit(99);
+	}
+	if (rd == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1]);
+		exit(98);
 	}
 	}
 	clrd = close(fd_read);
