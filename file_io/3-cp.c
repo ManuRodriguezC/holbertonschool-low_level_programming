@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 
 	while ((rd = read(fd_read, buf, 1024)) > 0)
 	{
-	if (fd_write == -1 || write(fd_write, buf, rd) != rd) 
+	if (fd_write == -1 || write(fd_write, buf, rd) != rd)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]);
 		close(fd_read);
@@ -39,14 +39,16 @@ int main(int argc, char *argv[])
 	}
 	}
 	clrd = close(fd_read);
-	clwr = close(fd_write);
-	if (clrd == -1 || clwr == -1)
-	{
+	clwr = close(fd_write);{
 	if (clrd == -1)
+	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read);	
+		exit(100);
+	}
 	if (clwr == -1)
+	{
 		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write);
-	exit(100);
+		exit(100);
 	}
 	return (0);
 }
