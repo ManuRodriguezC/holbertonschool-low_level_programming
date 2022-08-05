@@ -43,9 +43,9 @@ int main(int argc, char *argv[])
 	if (clrd == -1 || clwr == -1)
 	{
 	if (clrd == -1)
-		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clrd);	
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_read);	
 	if (clwr == -1)
-		dprintf(STDERR_FILENO, "Error: Can't close %d\n", clwr);
+		dprintf(STDERR_FILENO, "Error: Can't close %d\n", fd_write);
 	exit(100);
 	}
 	return (0);
