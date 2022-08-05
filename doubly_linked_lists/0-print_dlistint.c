@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- *print_dlistint - Write a function that prints all the elements of a dlistint_t list.
+ *print_dlistint - Write a function that prints all the
+ *elements of a dlistint_t list.
  *@h: Linked list.
  *Return: Number of nodes.
  */
