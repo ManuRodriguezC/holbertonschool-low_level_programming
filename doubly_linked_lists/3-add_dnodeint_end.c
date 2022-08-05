@@ -14,7 +14,7 @@ dlistint_t *new, *temp;
 if (head == NULL)
 	return (NULL);
 
-new = malloc(sizeof(dlistint_));
+new = malloc(sizeof(dlistint_t));
 if (new == NULL)
 	return (NULL);
 
