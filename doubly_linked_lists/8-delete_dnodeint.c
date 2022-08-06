@@ -4,7 +4,7 @@
  *delete_dnodeint_at_index - Delete node at given index.
  *@head: Head in the list
  *@index: Index to delete.
- *Return: List woth deleted node. 
+ *Return: List woth deleted node.
  */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
@@ -13,13 +13,16 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 
 	if (head == NULL || *head == NULL)
 		return (-1);
+
 	temp = *head;
 
 	if (index == 0)
 	{
 		*head = (*head)->next;
 		if (*head != NULL)
+		{
 			(*head)->prev = NULL;
+		}
 		free(temp);
 		return (1);
 	}
